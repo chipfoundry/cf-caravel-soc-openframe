@@ -1,0 +1,12 @@
+{
+  "project": {
+    "name": "cf-caravel-soc-openframe",
+    "type": "openframe",
+    "user": "jdicorpo",
+    "version": "1",
+    "user_project_wrapper_hash": "",
+    "submission_state": "Draft",
+    "github_repo_url": "https://github.com/chipfoundry/cf-caravel-soc-openframe",
+    "platform_project_id": "9691cdf3-cc86-406e-84ab-523301a50900"
+  }
+}

@@ -20,7 +20,66 @@
 - [Checklist for Shuttle Submission](#checklist-for-shuttle-submission)
 
 ## Overview
-OpenFrame is a ChipFoundry project template that provides only a bare padframe (no integrated SoC), giving you a 15 mm² user area and 44 GPIOs to design your own custom chip. You are free to implement your design and directly connect it to the available GPIOs throught the pins provided on the openframe wrapper.
+This repository is a clone of [`chipfoundry/openframe_user_project`](https://github.com/chipfoundry/openframe_user_project) with [`CF_CARAVEL_SOC`](https://github.com/chipfoundry/CF_CARAVEL_SOC) (VexRiscv + housekeeping + DFFRAM) and a 16-bit Caravel counter placed as hard macros. The wrapper stays elaborate-only; pad configuration comes from the SoC, not `CF_gpio_config`.
+
+OpenFrame is a ChipFoundry padframe (no integrated SoC) with a 15 mm² user area and 44 GPIOs.
+
+### Pad map
+
+| Pads | Source |
+|---:|---|
+| 7:0 | `CF_CARAVEL_SOC` (debug, housekeeping SPI, UART, IRQ) |
+| 23:8 | Template counter `count[15:0]` |
+| 31:24 | `CF_CARAVEL_SOC` |
+| 37:32 | `CF_CARAVEL_SOC` (SPI master / QSPI) |
+| 38 | External clock |
+| 39 | SPI flash CSB |
+| 40 | SPI flash CLK |
+| 41 | SPI flash IO0 |
+| 42 | SPI flash IO1 |
+| 43 | Management GPIO / development-board LED |
+
+### Layout
+
+```text
+  3166 x 4766  openframe_project_wrapper
+  ┌─────────────────────────────────────┐
+  │ counter_macro 400 x 400 @ (400,1800) │
+  │                                     │
+  ├─────────────────────────────────────┤ y ≈ 1750
+  │         CF_CARAVEL_SOC              │
+  │         2920 x 1700 @ (123, 50)     │
+  └─────────────────────────────────────┘
+```
+
+Template keep-alive vias `vccd1_connection` / `vssd1_connection` stay at the official `macro.cfg` locations. Harden with `cf harden counter_macro` then `cf harden openframe_project_wrapper`. GDS streamout is Magic.
+
+### Spice extraction
+
+The default is LEF-based extraction with the SoC and counter abstracted, which finishes in seconds:
+
+```json
+"MAGIC_EXT_USE_GDS": false,
+"MAGIC_EXT_ABSTRACT_CELLS": ["^CF_CARAVEL_SOC$", "^counter_macro$"],
+"ERROR_ON_ILLEGAL_OVERLAPS": false
+```
+
+Abstracting every macro also abstracts `vccd1_connection` / `vssd1_connection`, whose LEFs are a blanket met3 obstruction. The PDN straps those cells exist to carry are then reported as 27 illegal overlaps, so the check is demoted to a warning. Only the `vccd1` / `vssd1` special nets reach them; no signal net does.
+
+For a signoff run, extract from the streamed-out GDS instead, which reads the real geometry of the power vias and reports zero overlaps:
+
+```json
+"MAGIC_EXT_USE_GDS": true,
+"ERROR_ON_ILLEGAL_OVERLAPS": true
+```
+
+Budget about an hour and 7 GB of container memory for that, since `MAGIC_EXT_ABSTRACT_CELLS` does not prevent Magic from extracting the SoC hierarchy once the GDS is read. Resume just that stage with:
+
+```bash
+cf harden openframe_project_wrapper --from Magic.SpiceExtraction --tag <run tag>
+```
+
+Both paths depend on `CF_CARAVEL_SOC.lef` keeping its obstructions clear of its pins; see `layout/trim_obs_over_pins.py` in the IP repository.
 
 ---
 

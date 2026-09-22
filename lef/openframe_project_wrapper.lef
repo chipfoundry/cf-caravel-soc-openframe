@@ -714,6 +714,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 318.300 3168.630 318.650 ;
@@ -722,6 +723,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3234.300 3168.630 3234.650 ;
@@ -730,6 +732,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3459.300 3168.630 3459.650 ;
@@ -738,6 +741,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3684.300 3168.630 3684.650 ;
@@ -746,6 +750,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4130.300 3168.630 4130.650 ;
@@ -754,6 +759,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4576.300 3168.630 4576.650 ;
@@ -762,6 +768,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2970.020 4766.350 2970.300 4768.630 ;
@@ -770,6 +777,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2461.020 4766.350 2461.300 4768.630 ;
@@ -778,6 +786,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2204.020 4766.350 2204.300 4768.630 ;
@@ -786,6 +795,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1759.020 4766.350 1759.300 4768.630 ;
@@ -794,6 +804,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1250.020 4766.350 1250.300 4768.630 ;
@@ -802,6 +813,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 544.300 3168.630 544.650 ;
@@ -810,6 +822,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 992.020 4766.350 992.300 4768.630 ;
@@ -818,6 +831,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 735.020 4766.350 735.300 4768.630 ;
@@ -826,6 +840,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 478.020 4766.350 478.300 4768.630 ;
@@ -834,6 +849,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 221.020 4766.350 221.300 4768.630 ;
@@ -842,6 +858,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4610.980 0.300 4611.330 ;
@@ -850,6 +867,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3761.980 0.300 3762.330 ;
@@ -858,6 +876,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3545.980 0.300 3546.330 ;
@@ -866,6 +885,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3329.980 0.300 3330.330 ;
@@ -874,6 +894,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3113.980 0.300 3114.330 ;
@@ -882,6 +903,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2897.980 0.300 2898.330 ;
@@ -890,6 +912,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 769.300 3168.630 769.650 ;
@@ -898,6 +921,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2681.980 0.300 2682.330 ;
@@ -906,6 +930,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2465.980 0.300 2466.330 ;
@@ -914,6 +939,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1827.980 0.300 1828.330 ;
@@ -922,6 +948,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1611.980 0.300 1612.330 ;
@@ -930,6 +957,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1395.980 0.300 1396.330 ;
@@ -938,6 +966,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1179.980 0.300 1180.330 ;
@@ -946,6 +975,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 963.980 0.300 964.330 ;
@@ -954,6 +984,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 747.980 0.300 748.330 ;
@@ -978,6 +1009,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 995.300 3168.630 995.650 ;
@@ -1018,6 +1050,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1220.300 3168.630 1220.650 ;
@@ -1026,6 +1059,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1445.300 3168.630 1445.650 ;
@@ -1034,6 +1068,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1671.300 3168.630 1671.650 ;
@@ -1042,6 +1077,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2557.300 3168.630 2557.650 ;
@@ -1050,6 +1086,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2783.300 3168.630 2783.650 ;
@@ -1058,6 +1095,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_en[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3008.300 3168.630 3008.650 ;
@@ -1066,6 +1104,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 324.740 3168.630 325.090 ;
@@ -1074,6 +1113,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3240.740 3168.630 3241.090 ;
@@ -1082,6 +1122,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3465.740 3168.630 3466.090 ;
@@ -1090,6 +1131,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3690.740 3168.630 3691.090 ;
@@ -1098,6 +1140,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4136.740 3168.630 4137.090 ;
@@ -1106,6 +1149,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4582.740 3168.630 4583.090 ;
@@ -1114,6 +1158,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2963.580 4766.350 2963.860 4768.630 ;
@@ -1122,6 +1167,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2454.580 4766.350 2454.860 4768.630 ;
@@ -1130,6 +1176,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2197.580 4766.350 2197.860 4768.630 ;
@@ -1138,6 +1185,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1752.580 4766.350 1752.860 4768.630 ;
@@ -1146,6 +1194,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1243.580 4766.350 1243.860 4768.630 ;
@@ -1154,6 +1203,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 550.740 3168.630 551.090 ;
@@ -1162,6 +1212,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 985.580 4766.350 985.860 4768.630 ;
@@ -1170,6 +1221,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 728.580 4766.350 728.860 4768.630 ;
@@ -1178,6 +1230,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 471.580 4766.350 471.860 4768.630 ;
@@ -1186,6 +1239,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 214.580 4766.350 214.860 4768.630 ;
@@ -1194,6 +1248,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4604.540 0.300 4604.890 ;
@@ -1202,6 +1257,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3755.540 0.300 3755.890 ;
@@ -1210,6 +1266,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3539.540 0.300 3539.890 ;
@@ -1218,6 +1275,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3323.540 0.300 3323.890 ;
@@ -1226,6 +1284,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3107.540 0.300 3107.890 ;
@@ -1234,6 +1293,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2891.540 0.300 2891.890 ;
@@ -1242,6 +1302,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 775.740 3168.630 776.090 ;
@@ -1250,6 +1311,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2675.540 0.300 2675.890 ;
@@ -1258,6 +1320,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2459.540 0.300 2459.890 ;
@@ -1266,6 +1329,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1821.540 0.300 1821.890 ;
@@ -1274,6 +1338,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1605.540 0.300 1605.890 ;
@@ -1282,6 +1347,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1389.540 0.300 1389.890 ;
@@ -1290,6 +1356,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1173.540 0.300 1173.890 ;
@@ -1298,6 +1365,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 957.540 0.300 957.890 ;
@@ -1306,6 +1374,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 741.540 0.300 741.890 ;
@@ -1330,6 +1399,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1001.740 3168.630 1002.090 ;
@@ -1370,6 +1440,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1226.740 3168.630 1227.090 ;
@@ -1378,6 +1449,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1451.740 3168.630 1452.090 ;
@@ -1386,6 +1458,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1677.740 3168.630 1678.090 ;
@@ -1394,6 +1467,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2563.740 3168.630 2564.090 ;
@@ -1402,6 +1476,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2789.740 3168.630 2790.090 ;
@@ -1410,6 +1485,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_pol[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3014.740 3168.630 3015.090 ;
@@ -1418,6 +1494,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 339.920 3168.630 340.270 ;
@@ -1426,6 +1503,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3255.920 3168.630 3256.270 ;
@@ -1434,6 +1512,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3480.920 3168.630 3481.270 ;
@@ -1442,6 +1521,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3705.920 3168.630 3706.270 ;
@@ -1450,6 +1530,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4151.920 3168.630 4152.270 ;
@@ -1458,6 +1539,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4597.920 3168.630 4598.270 ;
@@ -1466,6 +1548,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2948.400 4766.350 2948.680 4768.630 ;
@@ -1474,6 +1557,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2439.400 4766.350 2439.680 4768.630 ;
@@ -1482,6 +1566,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2182.400 4766.350 2182.680 4768.630 ;
@@ -1490,6 +1575,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1737.400 4766.350 1737.680 4768.630 ;
@@ -1498,6 +1584,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1228.400 4766.350 1228.680 4768.630 ;
@@ -1506,6 +1593,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 565.920 3168.630 566.270 ;
@@ -1514,6 +1602,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 970.400 4766.350 970.680 4768.630 ;
@@ -1522,6 +1611,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 713.400 4766.350 713.680 4768.630 ;
@@ -1530,6 +1620,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 456.400 4766.350 456.680 4768.630 ;
@@ -1538,6 +1629,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 199.400 4766.350 199.680 4768.630 ;
@@ -1546,6 +1638,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4589.360 0.300 4589.710 ;
@@ -1554,6 +1647,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3740.360 0.300 3740.710 ;
@@ -1562,6 +1656,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3524.360 0.300 3524.710 ;
@@ -1570,6 +1665,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3308.360 0.300 3308.710 ;
@@ -1578,6 +1674,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3092.360 0.300 3092.710 ;
@@ -1586,6 +1683,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2876.360 0.300 2876.710 ;
@@ -1594,6 +1692,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 790.920 3168.630 791.270 ;
@@ -1602,6 +1701,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2660.360 0.300 2660.710 ;
@@ -1610,6 +1710,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2444.360 0.300 2444.710 ;
@@ -1618,6 +1719,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1806.360 0.300 1806.710 ;
@@ -1626,6 +1728,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1590.360 0.300 1590.710 ;
@@ -1634,6 +1737,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1374.360 0.300 1374.710 ;
@@ -1642,6 +1746,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1158.360 0.300 1158.710 ;
@@ -1650,6 +1755,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 942.360 0.300 942.710 ;
@@ -1658,6 +1764,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 726.360 0.300 726.710 ;
@@ -1682,6 +1789,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1016.920 3168.630 1017.270 ;
@@ -1722,6 +1830,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1241.920 3168.630 1242.270 ;
@@ -1730,6 +1839,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1466.920 3168.630 1467.270 ;
@@ -1738,6 +1848,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1692.920 3168.630 1693.270 ;
@@ -1746,6 +1857,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2578.920 3168.630 2579.270 ;
@@ -1754,6 +1866,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2804.920 3168.630 2805.270 ;
@@ -1762,6 +1875,7 @@ MACRO openframe_project_wrapper
   PIN gpio_analog_sel[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3029.920 3168.630 3030.270 ;
@@ -1770,6 +1884,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 321.520 3168.630 321.870 ;
@@ -1778,6 +1893,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3237.520 3168.630 3237.870 ;
@@ -1786,6 +1902,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3462.520 3168.630 3462.870 ;
@@ -1794,6 +1911,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3687.520 3168.630 3687.870 ;
@@ -1802,6 +1920,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4133.520 3168.630 4133.870 ;
@@ -1810,6 +1929,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4579.520 3168.630 4579.870 ;
@@ -1818,6 +1938,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2966.800 4766.350 2967.080 4768.630 ;
@@ -1826,6 +1947,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2457.800 4766.350 2458.080 4768.630 ;
@@ -1834,6 +1956,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2200.800 4766.350 2201.080 4768.630 ;
@@ -1842,6 +1965,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1755.800 4766.350 1756.080 4768.630 ;
@@ -1850,6 +1974,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1246.800 4766.350 1247.080 4768.630 ;
@@ -1858,6 +1983,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 547.520 3168.630 547.870 ;
@@ -1866,6 +1992,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 988.800 4766.350 989.080 4768.630 ;
@@ -1874,6 +2001,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 731.800 4766.350 732.080 4768.630 ;
@@ -1882,6 +2010,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 474.800 4766.350 475.080 4768.630 ;
@@ -1890,6 +2019,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 217.800 4766.350 218.080 4768.630 ;
@@ -1898,6 +2028,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4607.760 0.300 4608.110 ;
@@ -1906,6 +2037,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3758.760 0.300 3759.110 ;
@@ -1914,6 +2046,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3542.760 0.300 3543.110 ;
@@ -1922,6 +2055,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3326.760 0.300 3327.110 ;
@@ -1930,6 +2064,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3110.760 0.300 3111.110 ;
@@ -1938,6 +2073,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2894.760 0.300 2895.110 ;
@@ -1946,6 +2082,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 772.520 3168.630 772.870 ;
@@ -1954,6 +2091,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2678.760 0.300 2679.110 ;
@@ -1962,6 +2100,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2462.760 0.300 2463.110 ;
@@ -1970,6 +2109,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1824.760 0.300 1825.110 ;
@@ -1978,6 +2118,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1608.760 0.300 1609.110 ;
@@ -1986,6 +2127,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1392.760 0.300 1393.110 ;
@@ -1994,6 +2136,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1176.760 0.300 1177.110 ;
@@ -2002,6 +2145,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 960.760 0.300 961.110 ;
@@ -2010,6 +2154,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 744.760 0.300 745.110 ;
@@ -2034,6 +2179,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 998.520 3168.630 998.870 ;
@@ -2066,6 +2212,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[43]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2392.550 -2.000 2392.830 0.280 ;
@@ -2074,6 +2221,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1223.520 3168.630 1223.870 ;
@@ -2082,6 +2230,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1448.520 3168.630 1448.870 ;
@@ -2090,6 +2239,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1674.520 3168.630 1674.870 ;
@@ -2098,6 +2248,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2560.520 3168.630 2560.870 ;
@@ -2106,6 +2257,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2786.520 3168.630 2786.870 ;
@@ -2114,6 +2266,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm0[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3011.520 3168.630 3011.870 ;
@@ -2122,6 +2275,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 312.320 3168.630 312.670 ;
@@ -2130,6 +2284,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3228.320 3168.630 3228.670 ;
@@ -2138,6 +2293,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3453.320 3168.630 3453.670 ;
@@ -2146,6 +2302,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3678.320 3168.630 3678.670 ;
@@ -2154,6 +2311,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4124.320 3168.630 4124.670 ;
@@ -2162,6 +2320,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4570.320 3168.630 4570.670 ;
@@ -2170,6 +2329,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2976.000 4766.350 2976.280 4768.630 ;
@@ -2178,6 +2338,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2467.000 4766.350 2467.280 4768.630 ;
@@ -2186,6 +2347,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2210.000 4766.350 2210.280 4768.630 ;
@@ -2194,6 +2356,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1765.000 4766.350 1765.280 4768.630 ;
@@ -2202,6 +2365,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1256.000 4766.350 1256.280 4768.630 ;
@@ -2210,6 +2374,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 538.320 3168.630 538.670 ;
@@ -2218,6 +2383,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 998.000 4766.350 998.280 4768.630 ;
@@ -2226,6 +2392,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 741.000 4766.350 741.280 4768.630 ;
@@ -2234,6 +2401,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 484.000 4766.350 484.280 4768.630 ;
@@ -2242,6 +2410,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 227.000 4766.350 227.280 4768.630 ;
@@ -2250,6 +2419,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4616.960 0.300 4617.310 ;
@@ -2258,6 +2428,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3767.960 0.300 3768.310 ;
@@ -2266,6 +2437,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3551.960 0.300 3552.310 ;
@@ -2274,6 +2446,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3335.960 0.300 3336.310 ;
@@ -2282,6 +2455,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3119.960 0.300 3120.310 ;
@@ -2290,6 +2464,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2903.960 0.300 2904.310 ;
@@ -2298,6 +2473,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 763.320 3168.630 763.670 ;
@@ -2306,6 +2482,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2687.960 0.300 2688.310 ;
@@ -2314,6 +2491,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2471.960 0.300 2472.310 ;
@@ -2322,6 +2500,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1833.960 0.300 1834.310 ;
@@ -2330,6 +2509,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1617.960 0.300 1618.310 ;
@@ -2338,6 +2518,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1401.960 0.300 1402.310 ;
@@ -2346,6 +2527,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1185.960 0.300 1186.310 ;
@@ -2354,6 +2536,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 969.960 0.300 970.310 ;
@@ -2362,6 +2545,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 753.960 0.300 754.310 ;
@@ -2386,6 +2570,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 989.320 3168.630 989.670 ;
@@ -2418,6 +2603,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[43]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2383.350 -2.000 2383.630 0.280 ;
@@ -2426,6 +2612,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1214.320 3168.630 1214.670 ;
@@ -2434,6 +2621,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1439.320 3168.630 1439.670 ;
@@ -2442,6 +2630,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1665.320 3168.630 1665.670 ;
@@ -2450,6 +2639,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2551.320 3168.630 2551.670 ;
@@ -2458,6 +2648,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2777.320 3168.630 2777.670 ;
@@ -2466,6 +2657,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm1[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3002.320 3168.630 3002.670 ;
@@ -2474,6 +2666,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 343.140 3168.630 343.490 ;
@@ -2482,6 +2675,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3259.140 3168.630 3259.490 ;
@@ -2490,6 +2684,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3484.140 3168.630 3484.490 ;
@@ -2498,6 +2693,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3709.140 3168.630 3709.490 ;
@@ -2506,6 +2702,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4155.140 3168.630 4155.490 ;
@@ -2514,6 +2711,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4601.140 3168.630 4601.490 ;
@@ -2522,6 +2720,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2945.180 4766.350 2945.460 4768.630 ;
@@ -2530,6 +2729,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2436.180 4766.350 2436.460 4768.630 ;
@@ -2538,6 +2738,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2179.180 4766.350 2179.460 4768.630 ;
@@ -2546,6 +2747,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1734.180 4766.350 1734.460 4768.630 ;
@@ -2554,6 +2756,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1225.180 4766.350 1225.460 4768.630 ;
@@ -2562,6 +2765,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 569.140 3168.630 569.490 ;
@@ -2570,6 +2774,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 967.180 4766.350 967.460 4768.630 ;
@@ -2578,6 +2783,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 710.180 4766.350 710.460 4768.630 ;
@@ -2586,6 +2792,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 453.180 4766.350 453.460 4768.630 ;
@@ -2594,6 +2801,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 196.180 4766.350 196.460 4768.630 ;
@@ -2602,6 +2810,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4586.140 0.300 4586.490 ;
@@ -2610,6 +2819,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3737.140 0.300 3737.490 ;
@@ -2618,6 +2828,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3521.140 0.300 3521.490 ;
@@ -2626,6 +2837,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3305.140 0.300 3305.490 ;
@@ -2634,6 +2846,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3089.140 0.300 3089.490 ;
@@ -2642,6 +2855,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2873.140 0.300 2873.490 ;
@@ -2650,6 +2864,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 794.140 3168.630 794.490 ;
@@ -2658,6 +2873,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2657.140 0.300 2657.490 ;
@@ -2666,6 +2882,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2441.140 0.300 2441.490 ;
@@ -2674,6 +2891,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1803.140 0.300 1803.490 ;
@@ -2682,6 +2900,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1587.140 0.300 1587.490 ;
@@ -2690,6 +2909,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1371.140 0.300 1371.490 ;
@@ -2698,6 +2918,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1155.140 0.300 1155.490 ;
@@ -2706,6 +2927,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 939.140 0.300 939.490 ;
@@ -2714,6 +2936,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 723.140 0.300 723.490 ;
@@ -2738,6 +2961,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1020.140 3168.630 1020.490 ;
@@ -2770,6 +2994,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[43]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2414.170 -2.000 2414.450 0.280 ;
@@ -2778,6 +3003,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1245.140 3168.630 1245.490 ;
@@ -2786,6 +3012,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1470.140 3168.630 1470.490 ;
@@ -2794,6 +3021,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1696.140 3168.630 1696.490 ;
@@ -2802,6 +3030,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2582.140 3168.630 2582.490 ;
@@ -2810,6 +3039,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2808.140 3168.630 2808.490 ;
@@ -2818,6 +3048,7 @@ MACRO openframe_project_wrapper
   PIN gpio_dm2[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3033.140 3168.630 3033.490 ;
@@ -2826,6 +3057,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 346.360 3168.630 346.710 ;
@@ -2834,6 +3066,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3262.360 3168.630 3262.710 ;
@@ -2842,6 +3075,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3487.360 3168.630 3487.710 ;
@@ -2850,6 +3084,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3712.360 3168.630 3712.710 ;
@@ -2858,6 +3093,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4158.360 3168.630 4158.710 ;
@@ -2866,6 +3102,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4604.360 3168.630 4604.710 ;
@@ -2874,6 +3111,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2941.960 4766.350 2942.240 4768.630 ;
@@ -2882,6 +3120,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2432.960 4766.350 2433.240 4768.630 ;
@@ -2890,6 +3129,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2175.960 4766.350 2176.240 4768.630 ;
@@ -2898,6 +3138,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1730.960 4766.350 1731.240 4768.630 ;
@@ -2906,6 +3147,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1221.960 4766.350 1222.240 4768.630 ;
@@ -2914,6 +3156,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 572.360 3168.630 572.710 ;
@@ -2922,6 +3165,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 963.960 4766.350 964.240 4768.630 ;
@@ -2930,6 +3174,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 706.960 4766.350 707.240 4768.630 ;
@@ -2938,6 +3183,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 449.960 4766.350 450.240 4768.630 ;
@@ -2946,6 +3192,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 192.960 4766.350 193.240 4768.630 ;
@@ -2954,6 +3201,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4582.920 0.300 4583.270 ;
@@ -2962,6 +3210,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3733.920 0.300 3734.270 ;
@@ -2970,6 +3219,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3517.920 0.300 3518.270 ;
@@ -2978,6 +3228,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3301.920 0.300 3302.270 ;
@@ -2986,6 +3237,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3085.920 0.300 3086.270 ;
@@ -2994,6 +3246,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2869.920 0.300 2870.270 ;
@@ -3002,6 +3255,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 797.360 3168.630 797.710 ;
@@ -3010,6 +3264,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2653.920 0.300 2654.270 ;
@@ -3018,6 +3273,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2437.920 0.300 2438.270 ;
@@ -3026,6 +3282,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1799.920 0.300 1800.270 ;
@@ -3034,6 +3291,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1583.920 0.300 1584.270 ;
@@ -3042,6 +3300,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1367.920 0.300 1368.270 ;
@@ -3050,6 +3309,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1151.920 0.300 1152.270 ;
@@ -3058,6 +3318,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 935.920 0.300 936.270 ;
@@ -3066,6 +3327,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 719.920 0.300 720.270 ;
@@ -3090,6 +3352,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1023.360 3168.630 1023.710 ;
@@ -3130,6 +3393,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1248.360 3168.630 1248.710 ;
@@ -3138,6 +3402,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1473.360 3168.630 1473.710 ;
@@ -3146,6 +3411,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1699.360 3168.630 1699.710 ;
@@ -3154,6 +3420,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2585.360 3168.630 2585.710 ;
@@ -3162,6 +3429,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2811.360 3168.630 2811.710 ;
@@ -3170,6 +3438,7 @@ MACRO openframe_project_wrapper
   PIN gpio_holdover[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3036.360 3168.630 3036.710 ;
@@ -3178,6 +3447,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 361.540 3168.630 361.890 ;
@@ -3186,6 +3456,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3277.540 3168.630 3277.890 ;
@@ -3194,6 +3465,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3502.540 3168.630 3502.890 ;
@@ -3202,6 +3474,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3727.540 3168.630 3727.890 ;
@@ -3210,6 +3483,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4173.540 3168.630 4173.890 ;
@@ -3218,6 +3492,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4619.540 3168.630 4619.890 ;
@@ -3226,6 +3501,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2926.780 4766.350 2927.060 4768.630 ;
@@ -3234,6 +3510,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2417.780 4766.350 2418.060 4768.630 ;
@@ -3242,6 +3519,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2160.780 4766.350 2161.060 4768.630 ;
@@ -3250,6 +3528,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1715.780 4766.350 1716.060 4768.630 ;
@@ -3258,6 +3537,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1206.780 4766.350 1207.060 4768.630 ;
@@ -3266,6 +3546,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 587.540 3168.630 587.890 ;
@@ -3274,6 +3555,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 948.780 4766.350 949.060 4768.630 ;
@@ -3282,6 +3564,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 691.780 4766.350 692.060 4768.630 ;
@@ -3290,6 +3573,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 434.780 4766.350 435.060 4768.630 ;
@@ -3298,6 +3582,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 177.780 4766.350 178.060 4768.630 ;
@@ -3306,6 +3591,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4567.740 0.300 4568.090 ;
@@ -3314,6 +3600,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3718.740 0.300 3719.090 ;
@@ -3322,6 +3609,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3502.740 0.300 3503.090 ;
@@ -3330,6 +3618,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3286.740 0.300 3287.090 ;
@@ -3338,6 +3627,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3070.740 0.300 3071.090 ;
@@ -3346,6 +3636,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2854.740 0.300 2855.090 ;
@@ -3354,6 +3645,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 812.540 3168.630 812.890 ;
@@ -3362,6 +3654,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2638.740 0.300 2639.090 ;
@@ -3370,6 +3663,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2422.740 0.300 2423.090 ;
@@ -3378,6 +3672,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1784.740 0.300 1785.090 ;
@@ -3386,6 +3681,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1568.740 0.300 1569.090 ;
@@ -3394,6 +3690,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1352.740 0.300 1353.090 ;
@@ -3402,6 +3699,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1136.740 0.300 1137.090 ;
@@ -3410,6 +3708,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 920.740 0.300 921.090 ;
@@ -3418,6 +3717,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 704.740 0.300 705.090 ;
@@ -3442,6 +3742,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1038.540 3168.630 1038.890 ;
@@ -3482,6 +3783,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1263.540 3168.630 1263.890 ;
@@ -3490,6 +3792,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1488.540 3168.630 1488.890 ;
@@ -3498,6 +3801,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1714.540 3168.630 1714.890 ;
@@ -3506,6 +3810,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2600.540 3168.630 2600.890 ;
@@ -3514,6 +3819,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2826.540 3168.630 2826.890 ;
@@ -3522,6 +3828,7 @@ MACRO openframe_project_wrapper
   PIN gpio_ib_mode_sel[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3051.540 3168.630 3051.890 ;
@@ -3530,8 +3837,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.286700 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 5.642400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 293.920 3168.630 294.270 ;
@@ -3540,6 +3847,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3209.920 3168.630 3210.270 ;
@@ -3548,6 +3857,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.463900 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3434.920 3168.630 3435.270 ;
@@ -3556,6 +3867,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.860700 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3659.920 3168.630 3660.270 ;
@@ -3564,6 +3877,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4105.920 3168.630 4106.270 ;
@@ -3572,6 +3887,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4551.920 3168.630 4552.270 ;
@@ -3580,6 +3897,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 2994.400 4766.350 2994.680 4768.630 ;
@@ -3588,6 +3907,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 2485.400 4766.350 2485.680 4768.630 ;
@@ -3596,6 +3917,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 2228.400 4766.350 2228.680 4768.630 ;
@@ -3604,6 +3927,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 1783.400 4766.350 1783.680 4768.630 ;
@@ -3612,6 +3937,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 1274.400 4766.350 1274.680 4768.630 ;
@@ -3620,8 +3947,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.177200 ;
-    ANTENNADIFFAREA 0.434700 ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 519.920 3168.630 520.270 ;
@@ -3630,6 +3957,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 1016.400 4766.350 1016.680 4768.630 ;
@@ -3638,6 +3967,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 759.400 4766.350 759.680 4768.630 ;
@@ -3646,6 +3977,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 502.400 4766.350 502.680 4768.630 ;
@@ -3654,6 +3987,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 245.400 4766.350 245.680 4768.630 ;
@@ -3662,6 +3997,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4635.360 0.300 4635.710 ;
@@ -3670,6 +4007,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3786.360 0.300 3786.710 ;
@@ -3678,6 +4017,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 14.938800 ;
+    ANTENNADIFFAREA 14.779799 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3570.360 0.300 3570.710 ;
@@ -3686,6 +4027,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3354.360 0.300 3354.710 ;
@@ -3694,6 +4037,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3138.360 0.300 3138.710 ;
@@ -3702,6 +4047,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2922.360 0.300 2922.710 ;
@@ -3710,6 +4057,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 6.206400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 744.920 3168.630 745.270 ;
@@ -3718,6 +4067,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.463900 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2706.360 0.300 2706.710 ;
@@ -3726,6 +4077,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 10.645800 ;
+    ANTENNADIFFAREA 10.432799 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2490.360 0.300 2490.710 ;
@@ -3734,6 +4087,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[32]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.810100 ;
+    ANTENNADIFFAREA 5.651100 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1852.360 0.300 1852.710 ;
@@ -3742,6 +4097,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[33]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.864100 ;
+    ANTENNADIFFAREA 5.651100 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1636.360 0.300 1636.710 ;
@@ -3750,6 +4107,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[34]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 6.393600 ;
+    ANTENNADIFFAREA 5.651100 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1420.360 0.300 1420.710 ;
@@ -3758,6 +4117,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[35]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.463100 ;
+    ANTENNADIFFAREA 1.304100 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1204.360 0.300 1204.710 ;
@@ -3766,6 +4127,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[36]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.711400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT -2.000 988.360 0.300 988.710 ;
@@ -3774,6 +4137,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[37]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.730100 ;
+    ANTENNADIFFAREA 1.304100 ;
     PORT
       LAYER met3 ;
         RECT -2.000 772.360 0.300 772.710 ;
@@ -3782,6 +4147,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[38]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.276700 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
         RECT 725.950 -2.000 726.230 0.280 ;
@@ -3798,6 +4165,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.958900 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 970.920 3168.630 971.270 ;
@@ -3814,6 +4183,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[41]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 1816.950 -2.000 1817.230 0.280 ;
@@ -3822,6 +4193,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[42]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 2090.950 -2.000 2091.230 0.280 ;
@@ -3830,6 +4203,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[43]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.929700 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
         RECT 2364.950 -2.000 2365.230 0.280 ;
@@ -3838,6 +4213,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 6.068400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1195.920 3168.630 1196.270 ;
@@ -3846,6 +4223,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.711400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1420.920 3168.630 1421.270 ;
@@ -3854,6 +4233,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1646.920 3168.630 1647.270 ;
@@ -3862,6 +4243,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2532.920 3168.630 2533.270 ;
@@ -3870,6 +4253,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2758.920 3168.630 2759.270 ;
@@ -3878,6 +4263,8 @@ MACRO openframe_project_wrapper
   PIN gpio_in[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2983.920 3168.630 2984.270 ;
@@ -4238,6 +4625,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 327.500 3168.630 327.850 ;
@@ -4246,6 +4634,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3243.500 3168.630 3243.850 ;
@@ -4254,6 +4643,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3468.500 3168.630 3468.850 ;
@@ -4262,6 +4652,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3693.500 3168.630 3693.850 ;
@@ -4270,6 +4661,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4139.500 3168.630 4139.850 ;
@@ -4278,6 +4670,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4585.500 3168.630 4585.850 ;
@@ -4286,6 +4679,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2960.820 4766.350 2961.100 4768.630 ;
@@ -4294,6 +4688,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2451.820 4766.350 2452.100 4768.630 ;
@@ -4302,6 +4697,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2194.820 4766.350 2195.100 4768.630 ;
@@ -4310,6 +4706,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1749.820 4766.350 1750.100 4768.630 ;
@@ -4318,6 +4715,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1240.820 4766.350 1241.100 4768.630 ;
@@ -4326,6 +4724,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 553.500 3168.630 553.850 ;
@@ -4334,6 +4733,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 982.820 4766.350 983.100 4768.630 ;
@@ -4342,6 +4742,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 725.820 4766.350 726.100 4768.630 ;
@@ -4350,6 +4751,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 468.820 4766.350 469.100 4768.630 ;
@@ -4358,6 +4760,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 211.820 4766.350 212.100 4768.630 ;
@@ -4366,6 +4769,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4601.780 0.300 4602.130 ;
@@ -4374,6 +4778,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3752.780 0.300 3753.130 ;
@@ -4382,6 +4787,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3536.780 0.300 3537.130 ;
@@ -4390,6 +4796,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3320.780 0.300 3321.130 ;
@@ -4398,6 +4805,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3104.780 0.300 3105.130 ;
@@ -4406,6 +4814,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2888.780 0.300 2889.130 ;
@@ -4414,6 +4823,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 778.500 3168.630 778.850 ;
@@ -4422,6 +4832,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2672.780 0.300 2673.130 ;
@@ -4430,6 +4841,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2456.780 0.300 2457.130 ;
@@ -4438,6 +4850,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1818.780 0.300 1819.130 ;
@@ -4446,6 +4859,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1602.780 0.300 1603.130 ;
@@ -4454,6 +4868,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1386.780 0.300 1387.130 ;
@@ -4462,6 +4877,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1170.780 0.300 1171.130 ;
@@ -4470,6 +4886,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 954.780 0.300 955.130 ;
@@ -4478,6 +4895,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 738.780 0.300 739.130 ;
@@ -4502,6 +4920,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1004.500 3168.630 1004.850 ;
@@ -4518,6 +4937,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[41]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1850.530 -2.000 1850.810 0.280 ;
@@ -4526,6 +4946,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[42]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2124.530 -2.000 2124.810 0.280 ;
@@ -4534,6 +4955,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[43]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2398.530 -2.000 2398.810 0.280 ;
@@ -4542,6 +4964,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1229.500 3168.630 1229.850 ;
@@ -4550,6 +4973,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1454.500 3168.630 1454.850 ;
@@ -4558,6 +4982,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1680.500 3168.630 1680.850 ;
@@ -4566,6 +4991,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2566.500 3168.630 2566.850 ;
@@ -4574,6 +5000,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2792.500 3168.630 2792.850 ;
@@ -4582,6 +5009,7 @@ MACRO openframe_project_wrapper
   PIN gpio_inp_dis[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3017.500 3168.630 3017.850 ;
@@ -4784,7 +5212,7 @@ MACRO openframe_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -2.000 2393.220 0.550 2393.520 ;
+        RECT -2.000 2393.220 0.300 2393.520 ;
     END
   END gpio_loopback_one[31]
   PIN gpio_loopback_one[32]
@@ -4832,7 +5260,7 @@ MACRO openframe_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -2.000 673.220 0.550 673.520 ;
+        RECT -2.000 673.220 0.300 673.520 ;
     END
   END gpio_loopback_one[37]
   PIN gpio_loopback_one[38]
@@ -5080,7 +5508,7 @@ MACRO openframe_project_wrapper
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -2.000 3673.220 0.550 3673.520 ;
+        RECT -2.000 3673.220 0.300 3673.520 ;
     END
   END gpio_loopback_zero[25]
   PIN gpio_loopback_zero[26]
@@ -5294,6 +5722,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 364.760 3168.630 365.110 ;
@@ -5382,6 +5811,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 590.760 3168.630 591.110 ;
@@ -5422,6 +5852,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4564.520 0.300 4564.870 ;
@@ -5430,6 +5861,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3715.520 0.300 3715.870 ;
@@ -5438,6 +5870,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3499.520 0.300 3499.870 ;
@@ -5446,6 +5879,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3283.520 0.300 3283.870 ;
@@ -5454,6 +5888,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3067.520 0.300 3067.870 ;
@@ -5462,6 +5897,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2851.520 0.300 2851.870 ;
@@ -5470,6 +5906,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 815.760 3168.630 816.110 ;
@@ -5478,6 +5915,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2635.520 0.300 2635.870 ;
@@ -5486,6 +5924,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2419.520 0.300 2419.870 ;
@@ -5494,6 +5933,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1781.520 0.300 1781.870 ;
@@ -5502,6 +5942,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1565.520 0.300 1565.870 ;
@@ -5510,6 +5951,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1349.520 0.300 1349.870 ;
@@ -5518,6 +5960,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1133.520 0.300 1133.870 ;
@@ -5526,6 +5969,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 917.520 0.300 917.870 ;
@@ -5534,6 +5978,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 701.520 0.300 701.870 ;
@@ -5550,6 +5995,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[39]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1339.790 -2.000 1340.070 0.280 ;
@@ -5558,6 +6004,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1041.760 3168.630 1042.110 ;
@@ -5566,6 +6013,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[40]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1613.790 -2.000 1614.070 0.280 ;
@@ -5574,6 +6022,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[41]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1887.790 -2.000 1888.070 0.280 ;
@@ -5582,6 +6031,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[42]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2161.790 -2.000 2162.070 0.280 ;
@@ -5590,6 +6040,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[43]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2435.790 -2.000 2436.070 0.280 ;
@@ -5598,6 +6049,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1266.760 3168.630 1267.110 ;
@@ -5606,6 +6058,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1491.760 3168.630 1492.110 ;
@@ -5614,6 +6067,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1717.760 3168.630 1718.110 ;
@@ -5622,6 +6076,7 @@ MACRO openframe_project_wrapper
   PIN gpio_oeb[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2603.760 3168.630 2604.110 ;
@@ -5646,6 +6101,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 349.120 3168.630 349.470 ;
@@ -5654,7 +6110,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3265.120 3168.630 3265.470 ;
@@ -5663,7 +6119,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3490.120 3168.630 3490.470 ;
@@ -5672,7 +6128,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3715.120 3168.630 3715.470 ;
@@ -5681,6 +6137,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4161.120 3168.630 4161.470 ;
@@ -5689,6 +6146,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4607.120 3168.630 4607.470 ;
@@ -5697,6 +6155,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2939.200 4766.350 2939.480 4768.630 ;
@@ -5705,6 +6164,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2430.200 4766.350 2430.480 4768.630 ;
@@ -5713,6 +6173,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2173.200 4766.350 2173.480 4768.630 ;
@@ -5721,6 +6182,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1728.200 4766.350 1728.480 4768.630 ;
@@ -5729,6 +6191,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1219.200 4766.350 1219.480 4768.630 ;
@@ -5737,6 +6200,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 575.120 3168.630 575.470 ;
@@ -5745,6 +6209,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 961.200 4766.350 961.480 4768.630 ;
@@ -5753,6 +6218,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 704.200 4766.350 704.480 4768.630 ;
@@ -5761,6 +6227,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 447.200 4766.350 447.480 4768.630 ;
@@ -5769,6 +6236,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 190.200 4766.350 190.480 4768.630 ;
@@ -5777,6 +6245,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4580.160 0.300 4580.510 ;
@@ -5785,6 +6254,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3731.160 0.300 3731.510 ;
@@ -5793,6 +6263,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3515.160 0.300 3515.510 ;
@@ -5801,6 +6272,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3299.160 0.300 3299.510 ;
@@ -5809,6 +6281,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3083.160 0.300 3083.510 ;
@@ -5817,6 +6290,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2867.160 0.300 2867.510 ;
@@ -5825,7 +6299,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 800.120 3168.630 800.470 ;
@@ -5834,6 +6308,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2651.160 0.300 2651.510 ;
@@ -5842,6 +6317,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2435.160 0.300 2435.510 ;
@@ -5850,6 +6326,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1797.160 0.300 1797.510 ;
@@ -5858,6 +6335,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1581.160 0.300 1581.510 ;
@@ -5866,6 +6344,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1365.160 0.300 1365.510 ;
@@ -5874,6 +6353,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1149.160 0.300 1149.510 ;
@@ -5882,6 +6362,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 933.160 0.300 933.510 ;
@@ -5890,6 +6371,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 717.160 0.300 717.510 ;
@@ -5906,6 +6388,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[39]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1324.150 -2.000 1324.430 0.280 ;
@@ -5914,7 +6397,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1026.120 3168.630 1026.470 ;
@@ -5923,6 +6406,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[40]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1598.150 -2.000 1598.430 0.280 ;
@@ -5931,6 +6415,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[41]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1872.150 -2.000 1872.430 0.280 ;
@@ -5939,6 +6424,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[42]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2146.150 -2.000 2146.430 0.280 ;
@@ -5947,6 +6433,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[43]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2420.150 -2.000 2420.430 0.280 ;
@@ -5955,7 +6442,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1251.120 3168.630 1251.470 ;
@@ -5964,7 +6451,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1476.120 3168.630 1476.470 ;
@@ -5973,7 +6460,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1702.120 3168.630 1702.470 ;
@@ -5982,7 +6469,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2588.120 3168.630 2588.470 ;
@@ -5991,7 +6478,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2814.120 3168.630 2814.470 ;
@@ -6000,7 +6487,7 @@ MACRO openframe_project_wrapper
   PIN gpio_out[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.445500 ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3039.120 3168.630 3039.470 ;
@@ -6009,6 +6496,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 303.120 3168.630 303.470 ;
@@ -6017,6 +6505,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3219.120 3168.630 3219.470 ;
@@ -6025,6 +6514,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3444.120 3168.630 3444.470 ;
@@ -6033,6 +6523,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3669.120 3168.630 3669.470 ;
@@ -6041,6 +6532,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4115.120 3168.630 4115.470 ;
@@ -6049,6 +6541,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4561.120 3168.630 4561.470 ;
@@ -6057,6 +6550,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2985.200 4766.350 2985.480 4768.630 ;
@@ -6065,6 +6559,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2476.200 4766.350 2476.480 4768.630 ;
@@ -6073,6 +6568,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2219.200 4766.350 2219.480 4768.630 ;
@@ -6081,6 +6577,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1774.200 4766.350 1774.480 4768.630 ;
@@ -6089,6 +6586,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1265.200 4766.350 1265.480 4768.630 ;
@@ -6097,6 +6595,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 529.120 3168.630 529.470 ;
@@ -6105,6 +6604,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1007.200 4766.350 1007.480 4768.630 ;
@@ -6113,6 +6613,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 750.200 4766.350 750.480 4768.630 ;
@@ -6121,6 +6622,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 493.200 4766.350 493.480 4768.630 ;
@@ -6129,6 +6631,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 236.200 4766.350 236.480 4768.630 ;
@@ -6137,6 +6640,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4626.160 0.300 4626.510 ;
@@ -6145,6 +6649,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3777.160 0.300 3777.510 ;
@@ -6153,6 +6658,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3561.160 0.300 3561.510 ;
@@ -6161,6 +6667,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3345.160 0.300 3345.510 ;
@@ -6169,6 +6676,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3129.160 0.300 3129.510 ;
@@ -6177,6 +6685,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2913.160 0.300 2913.510 ;
@@ -6185,6 +6694,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 754.120 3168.630 754.470 ;
@@ -6193,6 +6703,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2697.160 0.300 2697.510 ;
@@ -6201,6 +6712,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2481.160 0.300 2481.510 ;
@@ -6209,6 +6721,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1843.160 0.300 1843.510 ;
@@ -6217,6 +6730,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1627.160 0.300 1627.510 ;
@@ -6225,6 +6739,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1411.160 0.300 1411.510 ;
@@ -6233,6 +6748,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1195.160 0.300 1195.510 ;
@@ -6241,6 +6757,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 979.160 0.300 979.510 ;
@@ -6249,6 +6766,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 763.160 0.300 763.510 ;
@@ -6273,6 +6791,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 980.120 3168.630 980.470 ;
@@ -6313,6 +6832,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1205.120 3168.630 1205.470 ;
@@ -6321,6 +6841,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1430.120 3168.630 1430.470 ;
@@ -6329,6 +6850,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1656.120 3168.630 1656.470 ;
@@ -6337,6 +6859,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2542.120 3168.630 2542.470 ;
@@ -6345,6 +6868,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2768.120 3168.630 2768.470 ;
@@ -6353,6 +6877,7 @@ MACRO openframe_project_wrapper
   PIN gpio_slow_sel[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2993.120 3168.630 2993.470 ;
@@ -6361,6 +6886,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 358.320 3168.630 358.670 ;
@@ -6369,6 +6895,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3274.320 3168.630 3274.670 ;
@@ -6377,6 +6904,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3499.320 3168.630 3499.670 ;
@@ -6385,6 +6913,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3724.320 3168.630 3724.670 ;
@@ -6393,6 +6922,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4170.320 3168.630 4170.670 ;
@@ -6401,6 +6931,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 4616.320 3168.630 4616.670 ;
@@ -6409,6 +6940,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2930.000 4766.350 2930.280 4768.630 ;
@@ -6417,6 +6949,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2421.000 4766.350 2421.280 4768.630 ;
@@ -6425,6 +6958,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 2164.000 4766.350 2164.280 4768.630 ;
@@ -6433,6 +6967,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1719.000 4766.350 1719.280 4768.630 ;
@@ -6441,6 +6976,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 1210.000 4766.350 1210.280 4768.630 ;
@@ -6449,6 +6985,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 584.320 3168.630 584.670 ;
@@ -6457,6 +6994,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 952.000 4766.350 952.280 4768.630 ;
@@ -6465,6 +7003,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 695.000 4766.350 695.280 4768.630 ;
@@ -6473,6 +7012,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 438.000 4766.350 438.280 4768.630 ;
@@ -6481,6 +7021,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met2 ;
         RECT 181.000 4766.350 181.280 4768.630 ;
@@ -6489,6 +7030,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 4570.960 0.300 4571.310 ;
@@ -6497,6 +7039,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3721.960 0.300 3722.310 ;
@@ -6505,6 +7048,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3505.960 0.300 3506.310 ;
@@ -6513,6 +7057,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3289.960 0.300 3290.310 ;
@@ -6521,6 +7066,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 3073.960 0.300 3074.310 ;
@@ -6529,6 +7075,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2857.960 0.300 2858.310 ;
@@ -6537,6 +7084,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 809.320 3168.630 809.670 ;
@@ -6545,6 +7093,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2641.960 0.300 2642.310 ;
@@ -6553,6 +7102,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 2425.960 0.300 2426.310 ;
@@ -6561,6 +7111,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1787.960 0.300 1788.310 ;
@@ -6569,6 +7120,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1571.960 0.300 1572.310 ;
@@ -6577,6 +7129,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1355.960 0.300 1356.310 ;
@@ -6585,6 +7138,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 1139.960 0.300 1140.310 ;
@@ -6593,6 +7147,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 923.960 0.300 924.310 ;
@@ -6601,6 +7156,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT -2.000 707.960 0.300 708.310 ;
@@ -6625,6 +7181,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1035.320 3168.630 1035.670 ;
@@ -6665,6 +7222,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1260.320 3168.630 1260.670 ;
@@ -6673,6 +7231,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1485.320 3168.630 1485.670 ;
@@ -6681,6 +7240,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 1711.320 3168.630 1711.670 ;
@@ -6689,6 +7249,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2597.320 3168.630 2597.670 ;
@@ -6697,6 +7258,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 2823.320 3168.630 2823.670 ;
@@ -6705,6 +7267,7 @@ MACRO openframe_project_wrapper
   PIN gpio_vtrip_sel[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.340600 ;
     PORT
       LAYER met3 ;
         RECT 3166.330 3048.320 3168.630 3048.670 ;
@@ -6713,6 +7276,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.734200 ;
+    ANTENNADIFFAREA 2.608200 ;
     PORT
       LAYER met2 ;
         RECT 3025.410 -2.000 3025.670 0.280 ;
@@ -6721,6 +7286,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3036.610 -2.000 3036.870 0.280 ;
@@ -6729,6 +7296,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3037.730 -2.000 3037.990 0.280 ;
@@ -6737,6 +7306,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3038.850 -2.000 3039.110 0.280 ;
@@ -6745,6 +7316,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3039.970 -2.000 3040.230 0.280 ;
@@ -6753,6 +7326,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.028400 ;
+    ANTENNADIFFAREA 0.869400 ;
     PORT
       LAYER met2 ;
         RECT 3041.090 -2.000 3041.350 0.280 ;
@@ -6761,6 +7336,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3042.210 -2.000 3042.470 0.280 ;
@@ -6769,6 +7346,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.082400 ;
+    ANTENNADIFFAREA 0.869400 ;
     PORT
       LAYER met2 ;
         RECT 3043.330 -2.000 3043.590 0.280 ;
@@ -6777,6 +7356,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3044.450 -2.000 3044.710 0.280 ;
@@ -6785,6 +7366,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3045.570 -2.000 3045.830 0.280 ;
@@ -6793,6 +7376,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3046.690 -2.000 3046.950 0.280 ;
@@ -6801,6 +7386,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3026.530 -2.000 3026.790 0.280 ;
@@ -6809,6 +7396,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3047.810 -2.000 3048.070 0.280 ;
@@ -6817,6 +7406,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3048.930 -2.000 3049.190 0.280 ;
@@ -6825,6 +7416,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3050.050 -2.000 3050.310 0.280 ;
@@ -6833,6 +7426,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3051.170 -2.000 3051.430 0.280 ;
@@ -6841,6 +7436,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3052.290 -2.000 3052.550 0.280 ;
@@ -6849,6 +7446,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.375400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3053.410 -2.000 3053.670 0.280 ;
@@ -6857,6 +7456,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.082400 ;
+    ANTENNADIFFAREA 0.869400 ;
     PORT
       LAYER met2 ;
         RECT 3054.530 -2.000 3054.790 0.280 ;
@@ -6865,6 +7466,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3055.650 -2.000 3055.910 0.280 ;
@@ -6873,6 +7476,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.463900 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3056.770 -2.000 3057.030 0.280 ;
@@ -6881,6 +7486,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3057.890 -2.000 3058.150 0.280 ;
@@ -6889,6 +7496,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.647700 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
         RECT 3027.650 -2.000 3027.910 0.280 ;
@@ -6897,6 +7506,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3059.010 -2.000 3059.270 0.280 ;
@@ -6905,6 +7516,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3060.130 -2.000 3060.390 0.280 ;
@@ -6913,6 +7526,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3028.770 -2.000 3029.030 0.280 ;
@@ -6921,6 +7536,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.810100 ;
+    ANTENNADIFFAREA 5.651100 ;
     PORT
       LAYER met2 ;
         RECT 3029.890 -2.000 3030.150 0.280 ;
@@ -6929,6 +7546,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.995400 ;
+    ANTENNADIFFAREA 0.869400 ;
     PORT
       LAYER met2 ;
         RECT 3031.010 -2.000 3031.270 0.280 ;
@@ -6937,6 +7556,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.429400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3032.130 -2.000 3032.390 0.280 ;
@@ -6945,6 +7566,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.647700 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
         RECT 3033.250 -2.000 3033.510 0.280 ;
@@ -6953,6 +7576,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3034.370 -2.000 3034.630 0.280 ;
@@ -6961,6 +7586,8 @@ MACRO openframe_project_wrapper
   PIN mask_rev[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 5.342400 ;
+    ANTENNADIFFAREA 5.216400 ;
     PORT
       LAYER met2 ;
         RECT 3035.490 -2.000 3035.750 0.280 ;
@@ -6985,6 +7612,7 @@ MACRO openframe_project_wrapper
   PIN porb_l
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.990000 ;
     PORT
       LAYER met3 ;
         RECT -2.000 267.975 0.300 268.325 ;
@@ -7001,6 +7629,8 @@ MACRO openframe_project_wrapper
   PIN resetb_l
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.850700 ;
+    ANTENNADIFFAREA 0.434700 ;
     PORT
       LAYER met2 ;
         RECT 550.820 -2.000 551.100 0.280 ;
@@ -7328,13 +7958,13 @@ MACRO openframe_project_wrapper
   END vssio
   OBS
       LAYER nwell ;
-        RECT 2855.690 245.795 3044.670 3722.125 ;
+        RECT 128.330 60.795 3037.290 2189.150 ;
       LAYER li1 ;
-        RECT 2855.880 245.795 3044.480 3722.125 ;
+        RECT 128.520 60.795 3037.100 2189.045 ;
       LAYER met1 ;
-        RECT 691.680 245.640 3049.470 4766.420 ;
+        RECT 3.750 1.400 3152.310 4766.420 ;
       LAYER met2 ;
-        RECT 0.090 4766.070 137.210 4766.530 ;
+        RECT 1.470 4766.070 137.210 4766.530 ;
         RECT 138.070 4766.070 147.210 4766.530 ;
         RECT 148.070 4766.070 171.520 4766.530 ;
         RECT 172.360 4766.070 174.280 4766.530 ;
@@ -7506,8 +8136,8 @@ MACRO openframe_project_wrapper
         RECT 2982.720 4766.070 2984.920 4766.530 ;
         RECT 2985.760 4766.070 2994.120 4766.530 ;
         RECT 2994.960 4766.070 3166.550 4766.530 ;
-        RECT 0.090 0.560 3166.550 4766.070 ;
-        RECT 0.090 0.070 497.600 0.560 ;
+        RECT 1.470 0.560 3166.550 4766.070 ;
+        RECT 1.470 0.070 497.600 0.560 ;
         RECT 498.440 0.070 550.540 0.560 ;
         RECT 551.380 0.070 725.670 0.560 ;
         RECT 726.510 0.070 734.870 0.560 ;
@@ -7657,11 +8287,11 @@ MACRO openframe_project_wrapper
         RECT 3059.550 0.070 3059.850 0.560 ;
         RECT 3060.670 0.070 3166.550 0.560 ;
       LAYER met3 ;
-        RECT 0.000 4765.930 1456.410 4765.945 ;
-        RECT 1481.110 4765.930 1506.310 4765.945 ;
-        RECT 1531.010 4765.930 2667.410 4765.945 ;
-        RECT 2692.110 4765.930 2717.310 4765.945 ;
-        RECT 2742.010 4765.930 3166.630 4765.945 ;
+        RECT 0.000 4765.930 1456.410 4766.610 ;
+        RECT 1481.110 4765.930 1506.310 4766.610 ;
+        RECT 1531.010 4765.930 2667.410 4766.610 ;
+        RECT 2692.110 4765.930 2717.310 4766.610 ;
+        RECT 2742.010 4765.930 3166.630 4766.610 ;
         RECT 0.000 4645.740 3166.630 4765.930 ;
         RECT 0.000 4644.630 3165.930 4645.740 ;
         RECT 0.000 4636.110 3166.630 4644.630 ;
@@ -7869,8 +8499,8 @@ MACRO openframe_project_wrapper
         RECT 0.000 3679.070 3166.630 3680.775 ;
         RECT 0.000 3677.920 3165.930 3679.070 ;
         RECT 0.000 3673.920 3166.630 3677.920 ;
-        RECT 0.950 3673.230 3166.630 3673.920 ;
-        RECT 0.950 3672.820 3165.930 3673.230 ;
+        RECT 0.700 3673.230 3166.630 3673.920 ;
+        RECT 0.700 3672.820 3165.930 3673.230 ;
         RECT 0.000 3671.790 3165.930 3672.820 ;
         RECT 0.000 3669.870 3166.630 3671.790 ;
         RECT 0.000 3668.720 3165.930 3669.870 ;
@@ -8287,7 +8917,7 @@ MACRO openframe_project_wrapper
         RECT 0.000 2417.510 3166.630 2419.120 ;
         RECT 0.700 2416.360 3166.630 2417.510 ;
         RECT 0.000 2393.920 3166.630 2416.360 ;
-        RECT 0.950 2392.820 3166.630 2393.920 ;
+        RECT 0.700 2392.820 3166.630 2393.920 ;
         RECT 0.000 2383.920 3166.630 2392.820 ;
         RECT 0.700 2383.220 3166.630 2383.920 ;
         RECT 0.700 2382.820 3165.930 2383.220 ;
@@ -8729,7 +9359,7 @@ MACRO openframe_project_wrapper
         RECT 0.000 699.510 3166.630 701.120 ;
         RECT 0.700 698.360 3166.630 699.510 ;
         RECT 0.000 673.920 3166.630 698.360 ;
-        RECT 0.950 672.820 3166.630 673.920 ;
+        RECT 0.700 672.820 3166.630 673.920 ;
         RECT 0.000 663.920 3166.630 672.820 ;
         RECT 0.700 662.820 3166.630 663.920 ;
         RECT 0.000 615.740 3166.630 662.820 ;
@@ -8829,7 +9459,7 @@ MACRO openframe_project_wrapper
         RECT 2928.330 0.175 2953.520 0.700 ;
         RECT 2978.220 0.175 3166.630 0.700 ;
       LAYER met4 ;
-        RECT 0.295 2.400 3166.345 4763.040 ;
+        RECT 1.620 0.175 3165.020 4763.040 ;
       LAYER met5 ;
         RECT 1.620 2.400 3165.020 4763.040 ;
   END

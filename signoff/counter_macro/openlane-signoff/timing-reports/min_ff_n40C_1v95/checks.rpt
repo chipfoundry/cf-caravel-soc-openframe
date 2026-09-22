@@ -1,0 +1,110 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= min_ff_n40C_1v95 Corner ===================================
+
+Startpoint: _091_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: count[1] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock source latency
+     2    0.044096    0.000000    0.000000    0.000000 ^ clk (in)
+                                                         clk (net)
+                      0.010806    0.005403    0.005403 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     2    0.022174    0.032553    0.080405    0.085808 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.032553    0.000193    0.086001 ^ clkbuf_1_0__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     8    0.025838    0.035110    0.088851    0.174852 ^ clkbuf_1_0__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_1_0__leaf_clk (net)
+                      0.035130    0.000733    0.175585 ^ _091_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     7    0.022212    0.160038    0.278753    0.454338 ^ _091_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                                         net9 (net)
+                      0.160038    0.000286    0.454624 ^ output9/A (sky130_fd_sc_hd__buf_1)
+     1    0.000746    0.019144    0.047662    0.502286 ^ output9/X (sky130_fd_sc_hd__buf_1)
+                                                         count[1] (net)
+                      0.019144    0.000004    0.502290 ^ count[1] (out)
+                                              0.502290   data arrival time
+
+                                 25.000000   25.000000   clock clk (rise edge)
+                                  0.000000   25.000000   clock network delay (propagated)
+                                 -0.250000   24.750000   clock uncertainty
+                                  0.000000   24.750000   clock reconvergence pessimism
+                                 -2.000000   22.750000   output external delay
+                                             22.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             22.750000   data required time
+                                             -0.502290   data arrival time
+---------------------------------------------------------------------------------------------
+                                             22.247709   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= min_ff_n40C_1v95 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= min_ff_n40C_1v95 Corner ===================================
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 16 unannotated drivers.
+ counter_macro_18/HI
+ counter_macro_19/HI
+ counter_macro_20/HI
+ counter_macro_21/HI
+ counter_macro_22/HI
+ counter_macro_23/HI
+ counter_macro_24/HI
+ counter_macro_25/HI
+ counter_macro_26/HI
+ counter_macro_27/HI
+ counter_macro_28/HI
+ counter_macro_29/HI
+ counter_macro_30/HI
+ counter_macro_31/HI
+ counter_macro_32/HI
+ counter_macro_33/HI
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 16 unconstrained endpoints.
+  count_oeb[0]
+  count_oeb[10]
+  count_oeb[11]
+  count_oeb[12]
+  count_oeb[13]
+  count_oeb[14]
+  count_oeb[15]
+  count_oeb[1]
+  count_oeb[2]
+  count_oeb[3]
+  count_oeb[4]
+  count_oeb[5]
+  count_oeb[6]
+  count_oeb[7]
+  count_oeb[8]
+  count_oeb[9]

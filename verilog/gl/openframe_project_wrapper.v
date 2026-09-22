@@ -77,583 +77,727 @@ module openframe_project_wrapper (por_l,
  output [43:0] gpio_vtrip_sel;
  input [31:0] mask_rev;
 
+ wire \soc_gpio_oeb_unused[0] ;
+ wire \soc_gpio_oeb_unused[10] ;
+ wire \soc_gpio_oeb_unused[11] ;
+ wire \soc_gpio_oeb_unused[12] ;
+ wire \soc_gpio_oeb_unused[13] ;
+ wire \soc_gpio_oeb_unused[14] ;
+ wire \soc_gpio_oeb_unused[15] ;
+ wire \soc_gpio_oeb_unused[1] ;
+ wire \soc_gpio_oeb_unused[2] ;
+ wire \soc_gpio_oeb_unused[3] ;
+ wire \soc_gpio_oeb_unused[4] ;
+ wire \soc_gpio_oeb_unused[5] ;
+ wire \soc_gpio_oeb_unused[6] ;
+ wire \soc_gpio_oeb_unused[7] ;
+ wire \soc_gpio_oeb_unused[8] ;
+ wire \soc_gpio_oeb_unused[9] ;
+ wire \soc_gpio_out_unused[0] ;
+ wire \soc_gpio_out_unused[10] ;
+ wire \soc_gpio_out_unused[11] ;
+ wire \soc_gpio_out_unused[12] ;
+ wire \soc_gpio_out_unused[13] ;
+ wire \soc_gpio_out_unused[14] ;
+ wire \soc_gpio_out_unused[15] ;
+ wire \soc_gpio_out_unused[1] ;
+ wire \soc_gpio_out_unused[2] ;
+ wire \soc_gpio_out_unused[3] ;
+ wire \soc_gpio_out_unused[4] ;
+ wire \soc_gpio_out_unused[5] ;
+ wire \soc_gpio_out_unused[6] ;
+ wire \soc_gpio_out_unused[7] ;
+ wire \soc_gpio_out_unused[8] ;
+ wire \soc_gpio_out_unused[9] ;
 
- user_proj_timer mprj (.vccd1(vccd1),
-    .vssd1(vssd1),
-    .wb_clk_i(gpio_in[0]),
-    .wb_rst_i(gpio_in[1]),
-    .io_out({gpio_out[12],
+ counter_macro u_counter (.VGND(vssd1),
+    .VPWR(vccd1),
+    .clk(gpio_in[38]),
+    .resetb(resetb_l),
+    .count({gpio_out[23],
+    gpio_out[22],
+    gpio_out[21],
+    gpio_out[20],
+    gpio_out[19],
+    gpio_out[18],
+    gpio_out[17],
+    gpio_out[16],
+    gpio_out[15],
+    gpio_out[14],
+    gpio_out[13],
+    gpio_out[12],
     gpio_out[11],
     gpio_out[10],
     gpio_out[9],
-    gpio_out[8],
+    gpio_out[8]}),
+    .count_oeb({gpio_oeb[23],
+    gpio_oeb[22],
+    gpio_oeb[21],
+    gpio_oeb[20],
+    gpio_oeb[19],
+    gpio_oeb[18],
+    gpio_oeb[17],
+    gpio_oeb[16],
+    gpio_oeb[15],
+    gpio_oeb[14],
+    gpio_oeb[13],
+    gpio_oeb[12],
+    gpio_oeb[11],
+    gpio_oeb[10],
+    gpio_oeb[9],
+    gpio_oeb[8]}));
+ CF_CARAVEL_SOC u_soc (.porb_l(porb_l),
+    .resetb_l(resetb_l),
+    .vccd(vccd1),
+    .vssd(vssd1),
+    .gpio_analog_en({gpio_analog_en[43],
+    gpio_analog_en[42],
+    gpio_analog_en[41],
+    gpio_analog_en[40],
+    gpio_analog_en[39],
+    gpio_analog_en[38],
+    gpio_analog_en[37],
+    gpio_analog_en[36],
+    gpio_analog_en[35],
+    gpio_analog_en[34],
+    gpio_analog_en[33],
+    gpio_analog_en[32],
+    gpio_analog_en[31],
+    gpio_analog_en[30],
+    gpio_analog_en[29],
+    gpio_analog_en[28],
+    gpio_analog_en[27],
+    gpio_analog_en[26],
+    gpio_analog_en[25],
+    gpio_analog_en[24],
+    gpio_analog_en[23],
+    gpio_analog_en[22],
+    gpio_analog_en[21],
+    gpio_analog_en[20],
+    gpio_analog_en[19],
+    gpio_analog_en[18],
+    gpio_analog_en[17],
+    gpio_analog_en[16],
+    gpio_analog_en[15],
+    gpio_analog_en[14],
+    gpio_analog_en[13],
+    gpio_analog_en[12],
+    gpio_analog_en[11],
+    gpio_analog_en[10],
+    gpio_analog_en[9],
+    gpio_analog_en[8],
+    gpio_analog_en[7],
+    gpio_analog_en[6],
+    gpio_analog_en[5],
+    gpio_analog_en[4],
+    gpio_analog_en[3],
+    gpio_analog_en[2],
+    gpio_analog_en[1],
+    gpio_analog_en[0]}),
+    .gpio_analog_pol({gpio_analog_pol[43],
+    gpio_analog_pol[42],
+    gpio_analog_pol[41],
+    gpio_analog_pol[40],
+    gpio_analog_pol[39],
+    gpio_analog_pol[38],
+    gpio_analog_pol[37],
+    gpio_analog_pol[36],
+    gpio_analog_pol[35],
+    gpio_analog_pol[34],
+    gpio_analog_pol[33],
+    gpio_analog_pol[32],
+    gpio_analog_pol[31],
+    gpio_analog_pol[30],
+    gpio_analog_pol[29],
+    gpio_analog_pol[28],
+    gpio_analog_pol[27],
+    gpio_analog_pol[26],
+    gpio_analog_pol[25],
+    gpio_analog_pol[24],
+    gpio_analog_pol[23],
+    gpio_analog_pol[22],
+    gpio_analog_pol[21],
+    gpio_analog_pol[20],
+    gpio_analog_pol[19],
+    gpio_analog_pol[18],
+    gpio_analog_pol[17],
+    gpio_analog_pol[16],
+    gpio_analog_pol[15],
+    gpio_analog_pol[14],
+    gpio_analog_pol[13],
+    gpio_analog_pol[12],
+    gpio_analog_pol[11],
+    gpio_analog_pol[10],
+    gpio_analog_pol[9],
+    gpio_analog_pol[8],
+    gpio_analog_pol[7],
+    gpio_analog_pol[6],
+    gpio_analog_pol[5],
+    gpio_analog_pol[4],
+    gpio_analog_pol[3],
+    gpio_analog_pol[2],
+    gpio_analog_pol[1],
+    gpio_analog_pol[0]}),
+    .gpio_analog_sel({gpio_analog_sel[43],
+    gpio_analog_sel[42],
+    gpio_analog_sel[41],
+    gpio_analog_sel[40],
+    gpio_analog_sel[39],
+    gpio_analog_sel[38],
+    gpio_analog_sel[37],
+    gpio_analog_sel[36],
+    gpio_analog_sel[35],
+    gpio_analog_sel[34],
+    gpio_analog_sel[33],
+    gpio_analog_sel[32],
+    gpio_analog_sel[31],
+    gpio_analog_sel[30],
+    gpio_analog_sel[29],
+    gpio_analog_sel[28],
+    gpio_analog_sel[27],
+    gpio_analog_sel[26],
+    gpio_analog_sel[25],
+    gpio_analog_sel[24],
+    gpio_analog_sel[23],
+    gpio_analog_sel[22],
+    gpio_analog_sel[21],
+    gpio_analog_sel[20],
+    gpio_analog_sel[19],
+    gpio_analog_sel[18],
+    gpio_analog_sel[17],
+    gpio_analog_sel[16],
+    gpio_analog_sel[15],
+    gpio_analog_sel[14],
+    gpio_analog_sel[13],
+    gpio_analog_sel[12],
+    gpio_analog_sel[11],
+    gpio_analog_sel[10],
+    gpio_analog_sel[9],
+    gpio_analog_sel[8],
+    gpio_analog_sel[7],
+    gpio_analog_sel[6],
+    gpio_analog_sel[5],
+    gpio_analog_sel[4],
+    gpio_analog_sel[3],
+    gpio_analog_sel[2],
+    gpio_analog_sel[1],
+    gpio_analog_sel[0]}),
+    .gpio_dm0({gpio_dm0[43],
+    gpio_dm0[42],
+    gpio_dm0[41],
+    gpio_dm0[40],
+    gpio_dm0[39],
+    gpio_dm0[38],
+    gpio_dm0[37],
+    gpio_dm0[36],
+    gpio_dm0[35],
+    gpio_dm0[34],
+    gpio_dm0[33],
+    gpio_dm0[32],
+    gpio_dm0[31],
+    gpio_dm0[30],
+    gpio_dm0[29],
+    gpio_dm0[28],
+    gpio_dm0[27],
+    gpio_dm0[26],
+    gpio_dm0[25],
+    gpio_dm0[24],
+    gpio_dm0[23],
+    gpio_dm0[22],
+    gpio_dm0[21],
+    gpio_dm0[20],
+    gpio_dm0[19],
+    gpio_dm0[18],
+    gpio_dm0[17],
+    gpio_dm0[16],
+    gpio_dm0[15],
+    gpio_dm0[14],
+    gpio_dm0[13],
+    gpio_dm0[12],
+    gpio_dm0[11],
+    gpio_dm0[10],
+    gpio_dm0[9],
+    gpio_dm0[8],
+    gpio_dm0[7],
+    gpio_dm0[6],
+    gpio_dm0[5],
+    gpio_dm0[4],
+    gpio_dm0[3],
+    gpio_dm0[2],
+    gpio_dm0[1],
+    gpio_dm0[0]}),
+    .gpio_dm1({gpio_dm1[43],
+    gpio_dm1[42],
+    gpio_dm1[41],
+    gpio_dm1[40],
+    gpio_dm1[39],
+    gpio_dm1[38],
+    gpio_dm1[37],
+    gpio_dm1[36],
+    gpio_dm1[35],
+    gpio_dm1[34],
+    gpio_dm1[33],
+    gpio_dm1[32],
+    gpio_dm1[31],
+    gpio_dm1[30],
+    gpio_dm1[29],
+    gpio_dm1[28],
+    gpio_dm1[27],
+    gpio_dm1[26],
+    gpio_dm1[25],
+    gpio_dm1[24],
+    gpio_dm1[23],
+    gpio_dm1[22],
+    gpio_dm1[21],
+    gpio_dm1[20],
+    gpio_dm1[19],
+    gpio_dm1[18],
+    gpio_dm1[17],
+    gpio_dm1[16],
+    gpio_dm1[15],
+    gpio_dm1[14],
+    gpio_dm1[13],
+    gpio_dm1[12],
+    gpio_dm1[11],
+    gpio_dm1[10],
+    gpio_dm1[9],
+    gpio_dm1[8],
+    gpio_dm1[7],
+    gpio_dm1[6],
+    gpio_dm1[5],
+    gpio_dm1[4],
+    gpio_dm1[3],
+    gpio_dm1[2],
+    gpio_dm1[1],
+    gpio_dm1[0]}),
+    .gpio_dm2({gpio_dm2[43],
+    gpio_dm2[42],
+    gpio_dm2[41],
+    gpio_dm2[40],
+    gpio_dm2[39],
+    gpio_dm2[38],
+    gpio_dm2[37],
+    gpio_dm2[36],
+    gpio_dm2[35],
+    gpio_dm2[34],
+    gpio_dm2[33],
+    gpio_dm2[32],
+    gpio_dm2[31],
+    gpio_dm2[30],
+    gpio_dm2[29],
+    gpio_dm2[28],
+    gpio_dm2[27],
+    gpio_dm2[26],
+    gpio_dm2[25],
+    gpio_dm2[24],
+    gpio_dm2[23],
+    gpio_dm2[22],
+    gpio_dm2[21],
+    gpio_dm2[20],
+    gpio_dm2[19],
+    gpio_dm2[18],
+    gpio_dm2[17],
+    gpio_dm2[16],
+    gpio_dm2[15],
+    gpio_dm2[14],
+    gpio_dm2[13],
+    gpio_dm2[12],
+    gpio_dm2[11],
+    gpio_dm2[10],
+    gpio_dm2[9],
+    gpio_dm2[8],
+    gpio_dm2[7],
+    gpio_dm2[6],
+    gpio_dm2[5],
+    gpio_dm2[4],
+    gpio_dm2[3],
+    gpio_dm2[2],
+    gpio_dm2[1],
+    gpio_dm2[0]}),
+    .gpio_holdover({gpio_holdover[43],
+    gpio_holdover[42],
+    gpio_holdover[41],
+    gpio_holdover[40],
+    gpio_holdover[39],
+    gpio_holdover[38],
+    gpio_holdover[37],
+    gpio_holdover[36],
+    gpio_holdover[35],
+    gpio_holdover[34],
+    gpio_holdover[33],
+    gpio_holdover[32],
+    gpio_holdover[31],
+    gpio_holdover[30],
+    gpio_holdover[29],
+    gpio_holdover[28],
+    gpio_holdover[27],
+    gpio_holdover[26],
+    gpio_holdover[25],
+    gpio_holdover[24],
+    gpio_holdover[23],
+    gpio_holdover[22],
+    gpio_holdover[21],
+    gpio_holdover[20],
+    gpio_holdover[19],
+    gpio_holdover[18],
+    gpio_holdover[17],
+    gpio_holdover[16],
+    gpio_holdover[15],
+    gpio_holdover[14],
+    gpio_holdover[13],
+    gpio_holdover[12],
+    gpio_holdover[11],
+    gpio_holdover[10],
+    gpio_holdover[9],
+    gpio_holdover[8],
+    gpio_holdover[7],
+    gpio_holdover[6],
+    gpio_holdover[5],
+    gpio_holdover[4],
+    gpio_holdover[3],
+    gpio_holdover[2],
+    gpio_holdover[1],
+    gpio_holdover[0]}),
+    .gpio_ib_mode_sel({gpio_ib_mode_sel[43],
+    gpio_ib_mode_sel[42],
+    gpio_ib_mode_sel[41],
+    gpio_ib_mode_sel[40],
+    gpio_ib_mode_sel[39],
+    gpio_ib_mode_sel[38],
+    gpio_ib_mode_sel[37],
+    gpio_ib_mode_sel[36],
+    gpio_ib_mode_sel[35],
+    gpio_ib_mode_sel[34],
+    gpio_ib_mode_sel[33],
+    gpio_ib_mode_sel[32],
+    gpio_ib_mode_sel[31],
+    gpio_ib_mode_sel[30],
+    gpio_ib_mode_sel[29],
+    gpio_ib_mode_sel[28],
+    gpio_ib_mode_sel[27],
+    gpio_ib_mode_sel[26],
+    gpio_ib_mode_sel[25],
+    gpio_ib_mode_sel[24],
+    gpio_ib_mode_sel[23],
+    gpio_ib_mode_sel[22],
+    gpio_ib_mode_sel[21],
+    gpio_ib_mode_sel[20],
+    gpio_ib_mode_sel[19],
+    gpio_ib_mode_sel[18],
+    gpio_ib_mode_sel[17],
+    gpio_ib_mode_sel[16],
+    gpio_ib_mode_sel[15],
+    gpio_ib_mode_sel[14],
+    gpio_ib_mode_sel[13],
+    gpio_ib_mode_sel[12],
+    gpio_ib_mode_sel[11],
+    gpio_ib_mode_sel[10],
+    gpio_ib_mode_sel[9],
+    gpio_ib_mode_sel[8],
+    gpio_ib_mode_sel[7],
+    gpio_ib_mode_sel[6],
+    gpio_ib_mode_sel[5],
+    gpio_ib_mode_sel[4],
+    gpio_ib_mode_sel[3],
+    gpio_ib_mode_sel[2],
+    gpio_ib_mode_sel[1],
+    gpio_ib_mode_sel[0]}),
+    .gpio_in({gpio_in[43],
+    gpio_in[42],
+    gpio_in[41],
+    gpio_in[40],
+    gpio_in[39],
+    gpio_in[38],
+    gpio_in[37],
+    gpio_in[36],
+    gpio_in[35],
+    gpio_in[34],
+    gpio_in[33],
+    gpio_in[32],
+    gpio_in[31],
+    gpio_in[30],
+    gpio_in[29],
+    gpio_in[28],
+    gpio_in[27],
+    gpio_in[26],
+    gpio_in[25],
+    gpio_in[24],
+    gpio_in[23],
+    gpio_in[22],
+    gpio_in[21],
+    gpio_in[20],
+    gpio_in[19],
+    gpio_in[18],
+    gpio_in[17],
+    gpio_in[16],
+    gpio_in[15],
+    gpio_in[14],
+    gpio_in[13],
+    gpio_in[12],
+    gpio_in[11],
+    gpio_in[10],
+    gpio_in[9],
+    gpio_in[8],
+    gpio_in[7],
+    gpio_in[6],
+    gpio_in[5],
+    gpio_in[4],
+    gpio_in[3],
+    gpio_in[2],
+    gpio_in[1],
+    gpio_in[0]}),
+    .gpio_inp_dis({gpio_inp_dis[43],
+    gpio_inp_dis[42],
+    gpio_inp_dis[41],
+    gpio_inp_dis[40],
+    gpio_inp_dis[39],
+    gpio_inp_dis[38],
+    gpio_inp_dis[37],
+    gpio_inp_dis[36],
+    gpio_inp_dis[35],
+    gpio_inp_dis[34],
+    gpio_inp_dis[33],
+    gpio_inp_dis[32],
+    gpio_inp_dis[31],
+    gpio_inp_dis[30],
+    gpio_inp_dis[29],
+    gpio_inp_dis[28],
+    gpio_inp_dis[27],
+    gpio_inp_dis[26],
+    gpio_inp_dis[25],
+    gpio_inp_dis[24],
+    gpio_inp_dis[23],
+    gpio_inp_dis[22],
+    gpio_inp_dis[21],
+    gpio_inp_dis[20],
+    gpio_inp_dis[19],
+    gpio_inp_dis[18],
+    gpio_inp_dis[17],
+    gpio_inp_dis[16],
+    gpio_inp_dis[15],
+    gpio_inp_dis[14],
+    gpio_inp_dis[13],
+    gpio_inp_dis[12],
+    gpio_inp_dis[11],
+    gpio_inp_dis[10],
+    gpio_inp_dis[9],
+    gpio_inp_dis[8],
+    gpio_inp_dis[7],
+    gpio_inp_dis[6],
+    gpio_inp_dis[5],
+    gpio_inp_dis[4],
+    gpio_inp_dis[3],
+    gpio_inp_dis[2],
+    gpio_inp_dis[1],
+    gpio_inp_dis[0]}),
+    .gpio_oeb({gpio_oeb[43],
+    gpio_oeb[42],
+    gpio_oeb[41],
+    gpio_oeb[40],
+    gpio_oeb[39],
+    gpio_oeb[38],
+    gpio_oeb[37],
+    gpio_oeb[36],
+    gpio_oeb[35],
+    gpio_oeb[34],
+    gpio_oeb[33],
+    gpio_oeb[32],
+    gpio_oeb[31],
+    gpio_oeb[30],
+    gpio_oeb[29],
+    gpio_oeb[28],
+    gpio_oeb[27],
+    gpio_oeb[26],
+    gpio_oeb[25],
+    gpio_oeb[24],
+    \soc_gpio_oeb_unused[15] ,
+    \soc_gpio_oeb_unused[14] ,
+    \soc_gpio_oeb_unused[13] ,
+    \soc_gpio_oeb_unused[12] ,
+    \soc_gpio_oeb_unused[11] ,
+    \soc_gpio_oeb_unused[10] ,
+    \soc_gpio_oeb_unused[9] ,
+    \soc_gpio_oeb_unused[8] ,
+    \soc_gpio_oeb_unused[7] ,
+    \soc_gpio_oeb_unused[6] ,
+    \soc_gpio_oeb_unused[5] ,
+    \soc_gpio_oeb_unused[4] ,
+    \soc_gpio_oeb_unused[3] ,
+    \soc_gpio_oeb_unused[2] ,
+    \soc_gpio_oeb_unused[1] ,
+    \soc_gpio_oeb_unused[0] ,
+    gpio_oeb[7],
+    gpio_oeb[6],
+    gpio_oeb[5],
+    gpio_oeb[4],
+    gpio_oeb[3],
+    gpio_oeb[2],
+    gpio_oeb[1],
+    gpio_oeb[0]}),
+    .gpio_out({gpio_out[43],
+    gpio_out[42],
+    gpio_out[41],
+    gpio_out[40],
+    gpio_out[39],
+    gpio_out[38],
+    gpio_out[37],
+    gpio_out[36],
+    gpio_out[35],
+    gpio_out[34],
+    gpio_out[33],
+    gpio_out[32],
+    gpio_out[31],
+    gpio_out[30],
+    gpio_out[29],
+    gpio_out[28],
+    gpio_out[27],
+    gpio_out[26],
+    gpio_out[25],
+    gpio_out[24],
+    \soc_gpio_out_unused[15] ,
+    \soc_gpio_out_unused[14] ,
+    \soc_gpio_out_unused[13] ,
+    \soc_gpio_out_unused[12] ,
+    \soc_gpio_out_unused[11] ,
+    \soc_gpio_out_unused[10] ,
+    \soc_gpio_out_unused[9] ,
+    \soc_gpio_out_unused[8] ,
+    \soc_gpio_out_unused[7] ,
+    \soc_gpio_out_unused[6] ,
+    \soc_gpio_out_unused[5] ,
+    \soc_gpio_out_unused[4] ,
+    \soc_gpio_out_unused[3] ,
+    \soc_gpio_out_unused[2] ,
+    \soc_gpio_out_unused[1] ,
+    \soc_gpio_out_unused[0] ,
     gpio_out[7],
     gpio_out[6],
     gpio_out[5],
     gpio_out[4],
     gpio_out[3],
-    gpio_out[2]}));
+    gpio_out[2],
+    gpio_out[1],
+    gpio_out[0]}),
+    .gpio_slow_sel({gpio_slow_sel[43],
+    gpio_slow_sel[42],
+    gpio_slow_sel[41],
+    gpio_slow_sel[40],
+    gpio_slow_sel[39],
+    gpio_slow_sel[38],
+    gpio_slow_sel[37],
+    gpio_slow_sel[36],
+    gpio_slow_sel[35],
+    gpio_slow_sel[34],
+    gpio_slow_sel[33],
+    gpio_slow_sel[32],
+    gpio_slow_sel[31],
+    gpio_slow_sel[30],
+    gpio_slow_sel[29],
+    gpio_slow_sel[28],
+    gpio_slow_sel[27],
+    gpio_slow_sel[26],
+    gpio_slow_sel[25],
+    gpio_slow_sel[24],
+    gpio_slow_sel[23],
+    gpio_slow_sel[22],
+    gpio_slow_sel[21],
+    gpio_slow_sel[20],
+    gpio_slow_sel[19],
+    gpio_slow_sel[18],
+    gpio_slow_sel[17],
+    gpio_slow_sel[16],
+    gpio_slow_sel[15],
+    gpio_slow_sel[14],
+    gpio_slow_sel[13],
+    gpio_slow_sel[12],
+    gpio_slow_sel[11],
+    gpio_slow_sel[10],
+    gpio_slow_sel[9],
+    gpio_slow_sel[8],
+    gpio_slow_sel[7],
+    gpio_slow_sel[6],
+    gpio_slow_sel[5],
+    gpio_slow_sel[4],
+    gpio_slow_sel[3],
+    gpio_slow_sel[2],
+    gpio_slow_sel[1],
+    gpio_slow_sel[0]}),
+    .gpio_vtrip_sel({gpio_vtrip_sel[43],
+    gpio_vtrip_sel[42],
+    gpio_vtrip_sel[41],
+    gpio_vtrip_sel[40],
+    gpio_vtrip_sel[39],
+    gpio_vtrip_sel[38],
+    gpio_vtrip_sel[37],
+    gpio_vtrip_sel[36],
+    gpio_vtrip_sel[35],
+    gpio_vtrip_sel[34],
+    gpio_vtrip_sel[33],
+    gpio_vtrip_sel[32],
+    gpio_vtrip_sel[31],
+    gpio_vtrip_sel[30],
+    gpio_vtrip_sel[29],
+    gpio_vtrip_sel[28],
+    gpio_vtrip_sel[27],
+    gpio_vtrip_sel[26],
+    gpio_vtrip_sel[25],
+    gpio_vtrip_sel[24],
+    gpio_vtrip_sel[23],
+    gpio_vtrip_sel[22],
+    gpio_vtrip_sel[21],
+    gpio_vtrip_sel[20],
+    gpio_vtrip_sel[19],
+    gpio_vtrip_sel[18],
+    gpio_vtrip_sel[17],
+    gpio_vtrip_sel[16],
+    gpio_vtrip_sel[15],
+    gpio_vtrip_sel[14],
+    gpio_vtrip_sel[13],
+    gpio_vtrip_sel[12],
+    gpio_vtrip_sel[11],
+    gpio_vtrip_sel[10],
+    gpio_vtrip_sel[9],
+    gpio_vtrip_sel[8],
+    gpio_vtrip_sel[7],
+    gpio_vtrip_sel[6],
+    gpio_vtrip_sel[5],
+    gpio_vtrip_sel[4],
+    gpio_vtrip_sel[3],
+    gpio_vtrip_sel[2],
+    gpio_vtrip_sel[1],
+    gpio_vtrip_sel[0]}),
+    .mask_rev({mask_rev[31],
+    mask_rev[30],
+    mask_rev[29],
+    mask_rev[28],
+    mask_rev[27],
+    mask_rev[26],
+    mask_rev[25],
+    mask_rev[24],
+    mask_rev[23],
+    mask_rev[22],
+    mask_rev[21],
+    mask_rev[20],
+    mask_rev[19],
+    mask_rev[18],
+    mask_rev[17],
+    mask_rev[16],
+    mask_rev[15],
+    mask_rev[14],
+    mask_rev[13],
+    mask_rev[12],
+    mask_rev[11],
+    mask_rev[10],
+    mask_rev[9],
+    mask_rev[8],
+    mask_rev[7],
+    mask_rev[6],
+    mask_rev[5],
+    mask_rev[4],
+    mask_rev[3],
+    mask_rev[2],
+    mask_rev[1],
+    mask_rev[0]}));
  vccd1_connection vccd1_connection ();
  vssd1_connection vssd1_connection ();
- assign gpio_dm0[0] = gpio_loopback_one[0];
- assign gpio_oeb[0] = gpio_loopback_one[0];
- assign gpio_dm1[10] = gpio_loopback_one[10];
- assign gpio_dm2[10] = gpio_loopback_one[10];
- assign gpio_inp_dis[10] = gpio_loopback_one[10];
- assign gpio_dm1[11] = gpio_loopback_one[11];
- assign gpio_dm2[11] = gpio_loopback_one[11];
- assign gpio_inp_dis[11] = gpio_loopback_one[11];
- assign gpio_dm1[12] = gpio_loopback_one[12];
- assign gpio_dm2[12] = gpio_loopback_one[12];
- assign gpio_inp_dis[12] = gpio_loopback_one[12];
- assign gpio_inp_dis[13] = gpio_loopback_one[13];
- assign gpio_oeb[13] = gpio_loopback_one[13];
- assign gpio_inp_dis[14] = gpio_loopback_one[14];
- assign gpio_oeb[14] = gpio_loopback_one[14];
- assign gpio_inp_dis[15] = gpio_loopback_one[15];
- assign gpio_oeb[15] = gpio_loopback_one[15];
- assign gpio_inp_dis[16] = gpio_loopback_one[16];
- assign gpio_oeb[16] = gpio_loopback_one[16];
- assign gpio_inp_dis[17] = gpio_loopback_one[17];
- assign gpio_oeb[17] = gpio_loopback_one[17];
- assign gpio_inp_dis[18] = gpio_loopback_one[18];
- assign gpio_oeb[18] = gpio_loopback_one[18];
- assign gpio_inp_dis[19] = gpio_loopback_one[19];
- assign gpio_oeb[19] = gpio_loopback_one[19];
- assign gpio_dm0[1] = gpio_loopback_one[1];
- assign gpio_dm1[1] = gpio_loopback_one[1];
- assign gpio_dm2[1] = gpio_loopback_one[1];
- assign gpio_out[1] = gpio_loopback_one[1];
- assign gpio_inp_dis[20] = gpio_loopback_one[20];
- assign gpio_oeb[20] = gpio_loopback_one[20];
- assign gpio_inp_dis[21] = gpio_loopback_one[21];
- assign gpio_oeb[21] = gpio_loopback_one[21];
- assign gpio_inp_dis[22] = gpio_loopback_one[22];
- assign gpio_oeb[22] = gpio_loopback_one[22];
- assign gpio_inp_dis[23] = gpio_loopback_one[23];
- assign gpio_oeb[23] = gpio_loopback_one[23];
- assign gpio_inp_dis[24] = gpio_loopback_one[24];
- assign gpio_oeb[24] = gpio_loopback_one[24];
- assign gpio_inp_dis[25] = gpio_loopback_one[25];
- assign gpio_oeb[25] = gpio_loopback_one[25];
- assign gpio_inp_dis[26] = gpio_loopback_one[26];
- assign gpio_oeb[26] = gpio_loopback_one[26];
- assign gpio_inp_dis[27] = gpio_loopback_one[27];
- assign gpio_oeb[27] = gpio_loopback_one[27];
- assign gpio_inp_dis[28] = gpio_loopback_one[28];
- assign gpio_oeb[28] = gpio_loopback_one[28];
- assign gpio_inp_dis[29] = gpio_loopback_one[29];
- assign gpio_oeb[29] = gpio_loopback_one[29];
- assign gpio_dm1[2] = gpio_loopback_one[2];
- assign gpio_dm2[2] = gpio_loopback_one[2];
- assign gpio_inp_dis[2] = gpio_loopback_one[2];
- assign gpio_inp_dis[30] = gpio_loopback_one[30];
- assign gpio_oeb[30] = gpio_loopback_one[30];
- assign gpio_inp_dis[31] = gpio_loopback_one[31];
- assign gpio_oeb[31] = gpio_loopback_one[31];
- assign gpio_inp_dis[32] = gpio_loopback_one[32];
- assign gpio_oeb[32] = gpio_loopback_one[32];
- assign gpio_inp_dis[33] = gpio_loopback_one[33];
- assign gpio_oeb[33] = gpio_loopback_one[33];
- assign gpio_inp_dis[34] = gpio_loopback_one[34];
- assign gpio_oeb[34] = gpio_loopback_one[34];
- assign gpio_inp_dis[35] = gpio_loopback_one[35];
- assign gpio_oeb[35] = gpio_loopback_one[35];
- assign gpio_inp_dis[36] = gpio_loopback_one[36];
- assign gpio_oeb[36] = gpio_loopback_one[36];
- assign gpio_inp_dis[37] = gpio_loopback_one[37];
- assign gpio_oeb[37] = gpio_loopback_one[37];
- assign gpio_inp_dis[38] = gpio_loopback_one[38];
- assign gpio_oeb[38] = gpio_loopback_one[38];
- assign gpio_inp_dis[39] = gpio_loopback_one[39];
- assign gpio_oeb[39] = gpio_loopback_one[39];
- assign gpio_dm1[3] = gpio_loopback_one[3];
- assign gpio_dm2[3] = gpio_loopback_one[3];
- assign gpio_inp_dis[3] = gpio_loopback_one[3];
- assign gpio_inp_dis[40] = gpio_loopback_one[40];
- assign gpio_oeb[40] = gpio_loopback_one[40];
- assign gpio_inp_dis[41] = gpio_loopback_one[41];
- assign gpio_oeb[41] = gpio_loopback_one[41];
- assign gpio_inp_dis[42] = gpio_loopback_one[42];
- assign gpio_oeb[42] = gpio_loopback_one[42];
- assign gpio_inp_dis[43] = gpio_loopback_one[43];
- assign gpio_oeb[43] = gpio_loopback_one[43];
- assign gpio_dm1[4] = gpio_loopback_one[4];
- assign gpio_dm2[4] = gpio_loopback_one[4];
- assign gpio_inp_dis[4] = gpio_loopback_one[4];
- assign gpio_dm1[5] = gpio_loopback_one[5];
- assign gpio_dm2[5] = gpio_loopback_one[5];
- assign gpio_inp_dis[5] = gpio_loopback_one[5];
- assign gpio_dm1[6] = gpio_loopback_one[6];
- assign gpio_dm2[6] = gpio_loopback_one[6];
- assign gpio_inp_dis[6] = gpio_loopback_one[6];
- assign gpio_dm1[7] = gpio_loopback_one[7];
- assign gpio_dm2[7] = gpio_loopback_one[7];
- assign gpio_inp_dis[7] = gpio_loopback_one[7];
- assign gpio_dm1[8] = gpio_loopback_one[8];
- assign gpio_dm2[8] = gpio_loopback_one[8];
- assign gpio_inp_dis[8] = gpio_loopback_one[8];
- assign gpio_dm1[9] = gpio_loopback_one[9];
- assign gpio_dm2[9] = gpio_loopback_one[9];
- assign gpio_inp_dis[9] = gpio_loopback_one[9];
- assign gpio_analog_en[0] = gpio_loopback_zero[0];
- assign gpio_analog_pol[0] = gpio_loopback_zero[0];
- assign gpio_analog_sel[0] = gpio_loopback_zero[0];
- assign gpio_dm1[0] = gpio_loopback_zero[0];
- assign gpio_dm2[0] = gpio_loopback_zero[0];
- assign gpio_holdover[0] = gpio_loopback_zero[0];
- assign gpio_ib_mode_sel[0] = gpio_loopback_zero[0];
- assign gpio_inp_dis[0] = gpio_loopback_zero[0];
- assign gpio_out[0] = gpio_loopback_zero[0];
- assign gpio_slow_sel[0] = gpio_loopback_zero[0];
- assign gpio_vtrip_sel[0] = gpio_loopback_zero[0];
- assign gpio_analog_en[10] = gpio_loopback_zero[10];
- assign gpio_analog_pol[10] = gpio_loopback_zero[10];
- assign gpio_analog_sel[10] = gpio_loopback_zero[10];
- assign gpio_dm0[10] = gpio_loopback_zero[10];
- assign gpio_holdover[10] = gpio_loopback_zero[10];
- assign gpio_ib_mode_sel[10] = gpio_loopback_zero[10];
- assign gpio_oeb[10] = gpio_loopback_zero[10];
- assign gpio_slow_sel[10] = gpio_loopback_zero[10];
- assign gpio_vtrip_sel[10] = gpio_loopback_zero[10];
- assign gpio_analog_en[11] = gpio_loopback_zero[11];
- assign gpio_analog_pol[11] = gpio_loopback_zero[11];
- assign gpio_analog_sel[11] = gpio_loopback_zero[11];
- assign gpio_dm0[11] = gpio_loopback_zero[11];
- assign gpio_holdover[11] = gpio_loopback_zero[11];
- assign gpio_ib_mode_sel[11] = gpio_loopback_zero[11];
- assign gpio_oeb[11] = gpio_loopback_zero[11];
- assign gpio_slow_sel[11] = gpio_loopback_zero[11];
- assign gpio_vtrip_sel[11] = gpio_loopback_zero[11];
- assign gpio_analog_en[12] = gpio_loopback_zero[12];
- assign gpio_analog_pol[12] = gpio_loopback_zero[12];
- assign gpio_analog_sel[12] = gpio_loopback_zero[12];
- assign gpio_dm0[12] = gpio_loopback_zero[12];
- assign gpio_holdover[12] = gpio_loopback_zero[12];
- assign gpio_ib_mode_sel[12] = gpio_loopback_zero[12];
- assign gpio_oeb[12] = gpio_loopback_zero[12];
- assign gpio_slow_sel[12] = gpio_loopback_zero[12];
- assign gpio_vtrip_sel[12] = gpio_loopback_zero[12];
- assign gpio_analog_en[13] = gpio_loopback_zero[13];
- assign gpio_analog_pol[13] = gpio_loopback_zero[13];
- assign gpio_analog_sel[13] = gpio_loopback_zero[13];
- assign gpio_dm0[13] = gpio_loopback_zero[13];
- assign gpio_dm1[13] = gpio_loopback_zero[13];
- assign gpio_dm2[13] = gpio_loopback_zero[13];
- assign gpio_holdover[13] = gpio_loopback_zero[13];
- assign gpio_ib_mode_sel[13] = gpio_loopback_zero[13];
- assign gpio_out[13] = gpio_loopback_zero[13];
- assign gpio_slow_sel[13] = gpio_loopback_zero[13];
- assign gpio_vtrip_sel[13] = gpio_loopback_zero[13];
- assign gpio_analog_en[14] = gpio_loopback_zero[14];
- assign gpio_analog_pol[14] = gpio_loopback_zero[14];
- assign gpio_analog_sel[14] = gpio_loopback_zero[14];
- assign gpio_dm0[14] = gpio_loopback_zero[14];
- assign gpio_dm1[14] = gpio_loopback_zero[14];
- assign gpio_dm2[14] = gpio_loopback_zero[14];
- assign gpio_holdover[14] = gpio_loopback_zero[14];
- assign gpio_ib_mode_sel[14] = gpio_loopback_zero[14];
- assign gpio_out[14] = gpio_loopback_zero[14];
- assign gpio_slow_sel[14] = gpio_loopback_zero[14];
- assign gpio_vtrip_sel[14] = gpio_loopback_zero[14];
- assign gpio_analog_en[15] = gpio_loopback_zero[15];
- assign gpio_analog_pol[15] = gpio_loopback_zero[15];
- assign gpio_analog_sel[15] = gpio_loopback_zero[15];
- assign gpio_dm0[15] = gpio_loopback_zero[15];
- assign gpio_dm1[15] = gpio_loopback_zero[15];
- assign gpio_dm2[15] = gpio_loopback_zero[15];
- assign gpio_holdover[15] = gpio_loopback_zero[15];
- assign gpio_ib_mode_sel[15] = gpio_loopback_zero[15];
- assign gpio_out[15] = gpio_loopback_zero[15];
- assign gpio_slow_sel[15] = gpio_loopback_zero[15];
- assign gpio_vtrip_sel[15] = gpio_loopback_zero[15];
- assign gpio_analog_en[16] = gpio_loopback_zero[16];
- assign gpio_analog_pol[16] = gpio_loopback_zero[16];
- assign gpio_analog_sel[16] = gpio_loopback_zero[16];
- assign gpio_dm0[16] = gpio_loopback_zero[16];
- assign gpio_dm1[16] = gpio_loopback_zero[16];
- assign gpio_dm2[16] = gpio_loopback_zero[16];
- assign gpio_holdover[16] = gpio_loopback_zero[16];
- assign gpio_ib_mode_sel[16] = gpio_loopback_zero[16];
- assign gpio_out[16] = gpio_loopback_zero[16];
- assign gpio_slow_sel[16] = gpio_loopback_zero[16];
- assign gpio_vtrip_sel[16] = gpio_loopback_zero[16];
- assign gpio_analog_en[17] = gpio_loopback_zero[17];
- assign gpio_analog_pol[17] = gpio_loopback_zero[17];
- assign gpio_analog_sel[17] = gpio_loopback_zero[17];
- assign gpio_dm0[17] = gpio_loopback_zero[17];
- assign gpio_dm1[17] = gpio_loopback_zero[17];
- assign gpio_dm2[17] = gpio_loopback_zero[17];
- assign gpio_holdover[17] = gpio_loopback_zero[17];
- assign gpio_ib_mode_sel[17] = gpio_loopback_zero[17];
- assign gpio_out[17] = gpio_loopback_zero[17];
- assign gpio_slow_sel[17] = gpio_loopback_zero[17];
- assign gpio_vtrip_sel[17] = gpio_loopback_zero[17];
- assign gpio_analog_en[18] = gpio_loopback_zero[18];
- assign gpio_analog_pol[18] = gpio_loopback_zero[18];
- assign gpio_analog_sel[18] = gpio_loopback_zero[18];
- assign gpio_dm0[18] = gpio_loopback_zero[18];
- assign gpio_dm1[18] = gpio_loopback_zero[18];
- assign gpio_dm2[18] = gpio_loopback_zero[18];
- assign gpio_holdover[18] = gpio_loopback_zero[18];
- assign gpio_ib_mode_sel[18] = gpio_loopback_zero[18];
- assign gpio_out[18] = gpio_loopback_zero[18];
- assign gpio_slow_sel[18] = gpio_loopback_zero[18];
- assign gpio_vtrip_sel[18] = gpio_loopback_zero[18];
- assign gpio_analog_en[19] = gpio_loopback_zero[19];
- assign gpio_analog_pol[19] = gpio_loopback_zero[19];
- assign gpio_analog_sel[19] = gpio_loopback_zero[19];
- assign gpio_dm0[19] = gpio_loopback_zero[19];
- assign gpio_dm1[19] = gpio_loopback_zero[19];
- assign gpio_dm2[19] = gpio_loopback_zero[19];
- assign gpio_holdover[19] = gpio_loopback_zero[19];
- assign gpio_ib_mode_sel[19] = gpio_loopback_zero[19];
- assign gpio_out[19] = gpio_loopback_zero[19];
- assign gpio_slow_sel[19] = gpio_loopback_zero[19];
- assign gpio_vtrip_sel[19] = gpio_loopback_zero[19];
- assign gpio_analog_en[1] = gpio_loopback_zero[1];
- assign gpio_analog_pol[1] = gpio_loopback_zero[1];
- assign gpio_analog_sel[1] = gpio_loopback_zero[1];
- assign gpio_holdover[1] = gpio_loopback_zero[1];
- assign gpio_ib_mode_sel[1] = gpio_loopback_zero[1];
- assign gpio_inp_dis[1] = gpio_loopback_zero[1];
- assign gpio_oeb[1] = gpio_loopback_zero[1];
- assign gpio_slow_sel[1] = gpio_loopback_zero[1];
- assign gpio_vtrip_sel[1] = gpio_loopback_zero[1];
- assign gpio_analog_en[20] = gpio_loopback_zero[20];
- assign gpio_analog_pol[20] = gpio_loopback_zero[20];
- assign gpio_analog_sel[20] = gpio_loopback_zero[20];
- assign gpio_dm0[20] = gpio_loopback_zero[20];
- assign gpio_dm1[20] = gpio_loopback_zero[20];
- assign gpio_dm2[20] = gpio_loopback_zero[20];
- assign gpio_holdover[20] = gpio_loopback_zero[20];
- assign gpio_ib_mode_sel[20] = gpio_loopback_zero[20];
- assign gpio_out[20] = gpio_loopback_zero[20];
- assign gpio_slow_sel[20] = gpio_loopback_zero[20];
- assign gpio_vtrip_sel[20] = gpio_loopback_zero[20];
- assign gpio_analog_en[21] = gpio_loopback_zero[21];
- assign gpio_analog_pol[21] = gpio_loopback_zero[21];
- assign gpio_analog_sel[21] = gpio_loopback_zero[21];
- assign gpio_dm0[21] = gpio_loopback_zero[21];
- assign gpio_dm1[21] = gpio_loopback_zero[21];
- assign gpio_dm2[21] = gpio_loopback_zero[21];
- assign gpio_holdover[21] = gpio_loopback_zero[21];
- assign gpio_ib_mode_sel[21] = gpio_loopback_zero[21];
- assign gpio_out[21] = gpio_loopback_zero[21];
- assign gpio_slow_sel[21] = gpio_loopback_zero[21];
- assign gpio_vtrip_sel[21] = gpio_loopback_zero[21];
- assign gpio_analog_en[22] = gpio_loopback_zero[22];
- assign gpio_analog_pol[22] = gpio_loopback_zero[22];
- assign gpio_analog_sel[22] = gpio_loopback_zero[22];
- assign gpio_dm0[22] = gpio_loopback_zero[22];
- assign gpio_dm1[22] = gpio_loopback_zero[22];
- assign gpio_dm2[22] = gpio_loopback_zero[22];
- assign gpio_holdover[22] = gpio_loopback_zero[22];
- assign gpio_ib_mode_sel[22] = gpio_loopback_zero[22];
- assign gpio_out[22] = gpio_loopback_zero[22];
- assign gpio_slow_sel[22] = gpio_loopback_zero[22];
- assign gpio_vtrip_sel[22] = gpio_loopback_zero[22];
- assign gpio_analog_en[23] = gpio_loopback_zero[23];
- assign gpio_analog_pol[23] = gpio_loopback_zero[23];
- assign gpio_analog_sel[23] = gpio_loopback_zero[23];
- assign gpio_dm0[23] = gpio_loopback_zero[23];
- assign gpio_dm1[23] = gpio_loopback_zero[23];
- assign gpio_dm2[23] = gpio_loopback_zero[23];
- assign gpio_holdover[23] = gpio_loopback_zero[23];
- assign gpio_ib_mode_sel[23] = gpio_loopback_zero[23];
- assign gpio_out[23] = gpio_loopback_zero[23];
- assign gpio_slow_sel[23] = gpio_loopback_zero[23];
- assign gpio_vtrip_sel[23] = gpio_loopback_zero[23];
- assign gpio_analog_en[24] = gpio_loopback_zero[24];
- assign gpio_analog_pol[24] = gpio_loopback_zero[24];
- assign gpio_analog_sel[24] = gpio_loopback_zero[24];
- assign gpio_dm0[24] = gpio_loopback_zero[24];
- assign gpio_dm1[24] = gpio_loopback_zero[24];
- assign gpio_dm2[24] = gpio_loopback_zero[24];
- assign gpio_holdover[24] = gpio_loopback_zero[24];
- assign gpio_ib_mode_sel[24] = gpio_loopback_zero[24];
- assign gpio_out[24] = gpio_loopback_zero[24];
- assign gpio_slow_sel[24] = gpio_loopback_zero[24];
- assign gpio_vtrip_sel[24] = gpio_loopback_zero[24];
- assign gpio_analog_en[25] = gpio_loopback_zero[25];
- assign gpio_analog_pol[25] = gpio_loopback_zero[25];
- assign gpio_analog_sel[25] = gpio_loopback_zero[25];
- assign gpio_dm0[25] = gpio_loopback_zero[25];
- assign gpio_dm1[25] = gpio_loopback_zero[25];
- assign gpio_dm2[25] = gpio_loopback_zero[25];
- assign gpio_holdover[25] = gpio_loopback_zero[25];
- assign gpio_ib_mode_sel[25] = gpio_loopback_zero[25];
- assign gpio_out[25] = gpio_loopback_zero[25];
- assign gpio_slow_sel[25] = gpio_loopback_zero[25];
- assign gpio_vtrip_sel[25] = gpio_loopback_zero[25];
- assign gpio_analog_en[26] = gpio_loopback_zero[26];
- assign gpio_analog_pol[26] = gpio_loopback_zero[26];
- assign gpio_analog_sel[26] = gpio_loopback_zero[26];
- assign gpio_dm0[26] = gpio_loopback_zero[26];
- assign gpio_dm1[26] = gpio_loopback_zero[26];
- assign gpio_dm2[26] = gpio_loopback_zero[26];
- assign gpio_holdover[26] = gpio_loopback_zero[26];
- assign gpio_ib_mode_sel[26] = gpio_loopback_zero[26];
- assign gpio_out[26] = gpio_loopback_zero[26];
- assign gpio_slow_sel[26] = gpio_loopback_zero[26];
- assign gpio_vtrip_sel[26] = gpio_loopback_zero[26];
- assign gpio_analog_en[27] = gpio_loopback_zero[27];
- assign gpio_analog_pol[27] = gpio_loopback_zero[27];
- assign gpio_analog_sel[27] = gpio_loopback_zero[27];
- assign gpio_dm0[27] = gpio_loopback_zero[27];
- assign gpio_dm1[27] = gpio_loopback_zero[27];
- assign gpio_dm2[27] = gpio_loopback_zero[27];
- assign gpio_holdover[27] = gpio_loopback_zero[27];
- assign gpio_ib_mode_sel[27] = gpio_loopback_zero[27];
- assign gpio_out[27] = gpio_loopback_zero[27];
- assign gpio_slow_sel[27] = gpio_loopback_zero[27];
- assign gpio_vtrip_sel[27] = gpio_loopback_zero[27];
- assign gpio_analog_en[28] = gpio_loopback_zero[28];
- assign gpio_analog_pol[28] = gpio_loopback_zero[28];
- assign gpio_analog_sel[28] = gpio_loopback_zero[28];
- assign gpio_dm0[28] = gpio_loopback_zero[28];
- assign gpio_dm1[28] = gpio_loopback_zero[28];
- assign gpio_dm2[28] = gpio_loopback_zero[28];
- assign gpio_holdover[28] = gpio_loopback_zero[28];
- assign gpio_ib_mode_sel[28] = gpio_loopback_zero[28];
- assign gpio_out[28] = gpio_loopback_zero[28];
- assign gpio_slow_sel[28] = gpio_loopback_zero[28];
- assign gpio_vtrip_sel[28] = gpio_loopback_zero[28];
- assign gpio_analog_en[29] = gpio_loopback_zero[29];
- assign gpio_analog_pol[29] = gpio_loopback_zero[29];
- assign gpio_analog_sel[29] = gpio_loopback_zero[29];
- assign gpio_dm0[29] = gpio_loopback_zero[29];
- assign gpio_dm1[29] = gpio_loopback_zero[29];
- assign gpio_dm2[29] = gpio_loopback_zero[29];
- assign gpio_holdover[29] = gpio_loopback_zero[29];
- assign gpio_ib_mode_sel[29] = gpio_loopback_zero[29];
- assign gpio_out[29] = gpio_loopback_zero[29];
- assign gpio_slow_sel[29] = gpio_loopback_zero[29];
- assign gpio_vtrip_sel[29] = gpio_loopback_zero[29];
- assign gpio_analog_en[2] = gpio_loopback_zero[2];
- assign gpio_analog_pol[2] = gpio_loopback_zero[2];
- assign gpio_analog_sel[2] = gpio_loopback_zero[2];
- assign gpio_dm0[2] = gpio_loopback_zero[2];
- assign gpio_holdover[2] = gpio_loopback_zero[2];
- assign gpio_ib_mode_sel[2] = gpio_loopback_zero[2];
- assign gpio_oeb[2] = gpio_loopback_zero[2];
- assign gpio_slow_sel[2] = gpio_loopback_zero[2];
- assign gpio_vtrip_sel[2] = gpio_loopback_zero[2];
- assign gpio_analog_en[30] = gpio_loopback_zero[30];
- assign gpio_analog_pol[30] = gpio_loopback_zero[30];
- assign gpio_analog_sel[30] = gpio_loopback_zero[30];
- assign gpio_dm0[30] = gpio_loopback_zero[30];
- assign gpio_dm1[30] = gpio_loopback_zero[30];
- assign gpio_dm2[30] = gpio_loopback_zero[30];
- assign gpio_holdover[30] = gpio_loopback_zero[30];
- assign gpio_ib_mode_sel[30] = gpio_loopback_zero[30];
- assign gpio_out[30] = gpio_loopback_zero[30];
- assign gpio_slow_sel[30] = gpio_loopback_zero[30];
- assign gpio_vtrip_sel[30] = gpio_loopback_zero[30];
- assign gpio_analog_en[31] = gpio_loopback_zero[31];
- assign gpio_analog_pol[31] = gpio_loopback_zero[31];
- assign gpio_analog_sel[31] = gpio_loopback_zero[31];
- assign gpio_dm0[31] = gpio_loopback_zero[31];
- assign gpio_dm1[31] = gpio_loopback_zero[31];
- assign gpio_dm2[31] = gpio_loopback_zero[31];
- assign gpio_holdover[31] = gpio_loopback_zero[31];
- assign gpio_ib_mode_sel[31] = gpio_loopback_zero[31];
- assign gpio_out[31] = gpio_loopback_zero[31];
- assign gpio_slow_sel[31] = gpio_loopback_zero[31];
- assign gpio_vtrip_sel[31] = gpio_loopback_zero[31];
- assign gpio_analog_en[32] = gpio_loopback_zero[32];
- assign gpio_analog_pol[32] = gpio_loopback_zero[32];
- assign gpio_analog_sel[32] = gpio_loopback_zero[32];
- assign gpio_dm0[32] = gpio_loopback_zero[32];
- assign gpio_dm1[32] = gpio_loopback_zero[32];
- assign gpio_dm2[32] = gpio_loopback_zero[32];
- assign gpio_holdover[32] = gpio_loopback_zero[32];
- assign gpio_ib_mode_sel[32] = gpio_loopback_zero[32];
- assign gpio_out[32] = gpio_loopback_zero[32];
- assign gpio_slow_sel[32] = gpio_loopback_zero[32];
- assign gpio_vtrip_sel[32] = gpio_loopback_zero[32];
- assign gpio_analog_en[33] = gpio_loopback_zero[33];
- assign gpio_analog_pol[33] = gpio_loopback_zero[33];
- assign gpio_analog_sel[33] = gpio_loopback_zero[33];
- assign gpio_dm0[33] = gpio_loopback_zero[33];
- assign gpio_dm1[33] = gpio_loopback_zero[33];
- assign gpio_dm2[33] = gpio_loopback_zero[33];
- assign gpio_holdover[33] = gpio_loopback_zero[33];
- assign gpio_ib_mode_sel[33] = gpio_loopback_zero[33];
- assign gpio_out[33] = gpio_loopback_zero[33];
- assign gpio_slow_sel[33] = gpio_loopback_zero[33];
- assign gpio_vtrip_sel[33] = gpio_loopback_zero[33];
- assign gpio_analog_en[34] = gpio_loopback_zero[34];
- assign gpio_analog_pol[34] = gpio_loopback_zero[34];
- assign gpio_analog_sel[34] = gpio_loopback_zero[34];
- assign gpio_dm0[34] = gpio_loopback_zero[34];
- assign gpio_dm1[34] = gpio_loopback_zero[34];
- assign gpio_dm2[34] = gpio_loopback_zero[34];
- assign gpio_holdover[34] = gpio_loopback_zero[34];
- assign gpio_ib_mode_sel[34] = gpio_loopback_zero[34];
- assign gpio_out[34] = gpio_loopback_zero[34];
- assign gpio_slow_sel[34] = gpio_loopback_zero[34];
- assign gpio_vtrip_sel[34] = gpio_loopback_zero[34];
- assign gpio_analog_en[35] = gpio_loopback_zero[35];
- assign gpio_analog_pol[35] = gpio_loopback_zero[35];
- assign gpio_analog_sel[35] = gpio_loopback_zero[35];
- assign gpio_dm0[35] = gpio_loopback_zero[35];
- assign gpio_dm1[35] = gpio_loopback_zero[35];
- assign gpio_dm2[35] = gpio_loopback_zero[35];
- assign gpio_holdover[35] = gpio_loopback_zero[35];
- assign gpio_ib_mode_sel[35] = gpio_loopback_zero[35];
- assign gpio_out[35] = gpio_loopback_zero[35];
- assign gpio_slow_sel[35] = gpio_loopback_zero[35];
- assign gpio_vtrip_sel[35] = gpio_loopback_zero[35];
- assign gpio_analog_en[36] = gpio_loopback_zero[36];
- assign gpio_analog_pol[36] = gpio_loopback_zero[36];
- assign gpio_analog_sel[36] = gpio_loopback_zero[36];
- assign gpio_dm0[36] = gpio_loopback_zero[36];
- assign gpio_dm1[36] = gpio_loopback_zero[36];
- assign gpio_dm2[36] = gpio_loopback_zero[36];
- assign gpio_holdover[36] = gpio_loopback_zero[36];
- assign gpio_ib_mode_sel[36] = gpio_loopback_zero[36];
- assign gpio_out[36] = gpio_loopback_zero[36];
- assign gpio_slow_sel[36] = gpio_loopback_zero[36];
- assign gpio_vtrip_sel[36] = gpio_loopback_zero[36];
- assign gpio_analog_en[37] = gpio_loopback_zero[37];
- assign gpio_analog_pol[37] = gpio_loopback_zero[37];
- assign gpio_analog_sel[37] = gpio_loopback_zero[37];
- assign gpio_dm0[37] = gpio_loopback_zero[37];
- assign gpio_dm1[37] = gpio_loopback_zero[37];
- assign gpio_dm2[37] = gpio_loopback_zero[37];
- assign gpio_holdover[37] = gpio_loopback_zero[37];
- assign gpio_ib_mode_sel[37] = gpio_loopback_zero[37];
- assign gpio_out[37] = gpio_loopback_zero[37];
- assign gpio_slow_sel[37] = gpio_loopback_zero[37];
- assign gpio_vtrip_sel[37] = gpio_loopback_zero[37];
- assign gpio_analog_en[38] = gpio_loopback_zero[38];
- assign gpio_analog_pol[38] = gpio_loopback_zero[38];
- assign gpio_analog_sel[38] = gpio_loopback_zero[38];
- assign gpio_dm0[38] = gpio_loopback_zero[38];
- assign gpio_dm1[38] = gpio_loopback_zero[38];
- assign gpio_dm2[38] = gpio_loopback_zero[38];
- assign gpio_holdover[38] = gpio_loopback_zero[38];
- assign gpio_ib_mode_sel[38] = gpio_loopback_zero[38];
- assign gpio_out[38] = gpio_loopback_zero[38];
- assign gpio_slow_sel[38] = gpio_loopback_zero[38];
- assign gpio_vtrip_sel[38] = gpio_loopback_zero[38];
- assign gpio_analog_en[39] = gpio_loopback_zero[39];
- assign gpio_analog_pol[39] = gpio_loopback_zero[39];
- assign gpio_analog_sel[39] = gpio_loopback_zero[39];
- assign gpio_dm0[39] = gpio_loopback_zero[39];
- assign gpio_dm1[39] = gpio_loopback_zero[39];
- assign gpio_dm2[39] = gpio_loopback_zero[39];
- assign gpio_holdover[39] = gpio_loopback_zero[39];
- assign gpio_ib_mode_sel[39] = gpio_loopback_zero[39];
- assign gpio_out[39] = gpio_loopback_zero[39];
- assign gpio_slow_sel[39] = gpio_loopback_zero[39];
- assign gpio_vtrip_sel[39] = gpio_loopback_zero[39];
- assign gpio_analog_en[3] = gpio_loopback_zero[3];
- assign gpio_analog_pol[3] = gpio_loopback_zero[3];
- assign gpio_analog_sel[3] = gpio_loopback_zero[3];
- assign gpio_dm0[3] = gpio_loopback_zero[3];
- assign gpio_holdover[3] = gpio_loopback_zero[3];
- assign gpio_ib_mode_sel[3] = gpio_loopback_zero[3];
- assign gpio_oeb[3] = gpio_loopback_zero[3];
- assign gpio_slow_sel[3] = gpio_loopback_zero[3];
- assign gpio_vtrip_sel[3] = gpio_loopback_zero[3];
- assign gpio_analog_en[40] = gpio_loopback_zero[40];
- assign gpio_analog_pol[40] = gpio_loopback_zero[40];
- assign gpio_analog_sel[40] = gpio_loopback_zero[40];
- assign gpio_dm0[40] = gpio_loopback_zero[40];
- assign gpio_dm1[40] = gpio_loopback_zero[40];
- assign gpio_dm2[40] = gpio_loopback_zero[40];
- assign gpio_holdover[40] = gpio_loopback_zero[40];
- assign gpio_ib_mode_sel[40] = gpio_loopback_zero[40];
- assign gpio_out[40] = gpio_loopback_zero[40];
- assign gpio_slow_sel[40] = gpio_loopback_zero[40];
- assign gpio_vtrip_sel[40] = gpio_loopback_zero[40];
- assign gpio_analog_en[41] = gpio_loopback_zero[41];
- assign gpio_analog_pol[41] = gpio_loopback_zero[41];
- assign gpio_analog_sel[41] = gpio_loopback_zero[41];
- assign gpio_dm0[41] = gpio_loopback_zero[41];
- assign gpio_dm1[41] = gpio_loopback_zero[41];
- assign gpio_dm2[41] = gpio_loopback_zero[41];
- assign gpio_holdover[41] = gpio_loopback_zero[41];
- assign gpio_ib_mode_sel[41] = gpio_loopback_zero[41];
- assign gpio_out[41] = gpio_loopback_zero[41];
- assign gpio_slow_sel[41] = gpio_loopback_zero[41];
- assign gpio_vtrip_sel[41] = gpio_loopback_zero[41];
- assign gpio_analog_en[42] = gpio_loopback_zero[42];
- assign gpio_analog_pol[42] = gpio_loopback_zero[42];
- assign gpio_analog_sel[42] = gpio_loopback_zero[42];
- assign gpio_dm0[42] = gpio_loopback_zero[42];
- assign gpio_dm1[42] = gpio_loopback_zero[42];
- assign gpio_dm2[42] = gpio_loopback_zero[42];
- assign gpio_holdover[42] = gpio_loopback_zero[42];
- assign gpio_ib_mode_sel[42] = gpio_loopback_zero[42];
- assign gpio_out[42] = gpio_loopback_zero[42];
- assign gpio_slow_sel[42] = gpio_loopback_zero[42];
- assign gpio_vtrip_sel[42] = gpio_loopback_zero[42];
- assign gpio_analog_en[43] = gpio_loopback_zero[43];
- assign gpio_analog_pol[43] = gpio_loopback_zero[43];
- assign gpio_analog_sel[43] = gpio_loopback_zero[43];
- assign gpio_dm0[43] = gpio_loopback_zero[43];
- assign gpio_dm1[43] = gpio_loopback_zero[43];
- assign gpio_dm2[43] = gpio_loopback_zero[43];
- assign gpio_holdover[43] = gpio_loopback_zero[43];
- assign gpio_ib_mode_sel[43] = gpio_loopback_zero[43];
- assign gpio_out[43] = gpio_loopback_zero[43];
- assign gpio_slow_sel[43] = gpio_loopback_zero[43];
- assign gpio_vtrip_sel[43] = gpio_loopback_zero[43];
- assign gpio_analog_en[4] = gpio_loopback_zero[4];
- assign gpio_analog_pol[4] = gpio_loopback_zero[4];
- assign gpio_analog_sel[4] = gpio_loopback_zero[4];
- assign gpio_dm0[4] = gpio_loopback_zero[4];
- assign gpio_holdover[4] = gpio_loopback_zero[4];
- assign gpio_ib_mode_sel[4] = gpio_loopback_zero[4];
- assign gpio_oeb[4] = gpio_loopback_zero[4];
- assign gpio_slow_sel[4] = gpio_loopback_zero[4];
- assign gpio_vtrip_sel[4] = gpio_loopback_zero[4];
- assign gpio_analog_en[5] = gpio_loopback_zero[5];
- assign gpio_analog_pol[5] = gpio_loopback_zero[5];
- assign gpio_analog_sel[5] = gpio_loopback_zero[5];
- assign gpio_dm0[5] = gpio_loopback_zero[5];
- assign gpio_holdover[5] = gpio_loopback_zero[5];
- assign gpio_ib_mode_sel[5] = gpio_loopback_zero[5];
- assign gpio_oeb[5] = gpio_loopback_zero[5];
- assign gpio_slow_sel[5] = gpio_loopback_zero[5];
- assign gpio_vtrip_sel[5] = gpio_loopback_zero[5];
- assign gpio_analog_en[6] = gpio_loopback_zero[6];
- assign gpio_analog_pol[6] = gpio_loopback_zero[6];
- assign gpio_analog_sel[6] = gpio_loopback_zero[6];
- assign gpio_dm0[6] = gpio_loopback_zero[6];
- assign gpio_holdover[6] = gpio_loopback_zero[6];
- assign gpio_ib_mode_sel[6] = gpio_loopback_zero[6];
- assign gpio_oeb[6] = gpio_loopback_zero[6];
- assign gpio_slow_sel[6] = gpio_loopback_zero[6];
- assign gpio_vtrip_sel[6] = gpio_loopback_zero[6];
- assign gpio_analog_en[7] = gpio_loopback_zero[7];
- assign gpio_analog_pol[7] = gpio_loopback_zero[7];
- assign gpio_analog_sel[7] = gpio_loopback_zero[7];
- assign gpio_dm0[7] = gpio_loopback_zero[7];
- assign gpio_holdover[7] = gpio_loopback_zero[7];
- assign gpio_ib_mode_sel[7] = gpio_loopback_zero[7];
- assign gpio_oeb[7] = gpio_loopback_zero[7];
- assign gpio_slow_sel[7] = gpio_loopback_zero[7];
- assign gpio_vtrip_sel[7] = gpio_loopback_zero[7];
- assign gpio_analog_en[8] = gpio_loopback_zero[8];
- assign gpio_analog_pol[8] = gpio_loopback_zero[8];
- assign gpio_analog_sel[8] = gpio_loopback_zero[8];
- assign gpio_dm0[8] = gpio_loopback_zero[8];
- assign gpio_holdover[8] = gpio_loopback_zero[8];
- assign gpio_ib_mode_sel[8] = gpio_loopback_zero[8];
- assign gpio_oeb[8] = gpio_loopback_zero[8];
- assign gpio_slow_sel[8] = gpio_loopback_zero[8];
- assign gpio_vtrip_sel[8] = gpio_loopback_zero[8];
- assign gpio_analog_en[9] = gpio_loopback_zero[9];
- assign gpio_analog_pol[9] = gpio_loopback_zero[9];
- assign gpio_analog_sel[9] = gpio_loopback_zero[9];
- assign gpio_dm0[9] = gpio_loopback_zero[9];
- assign gpio_holdover[9] = gpio_loopback_zero[9];
- assign gpio_ib_mode_sel[9] = gpio_loopback_zero[9];
- assign gpio_oeb[9] = gpio_loopback_zero[9];
- assign gpio_slow_sel[9] = gpio_loopback_zero[9];
- assign gpio_vtrip_sel[9] = gpio_loopback_zero[9];
 endmodule

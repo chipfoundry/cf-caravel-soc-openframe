@@ -33,7 +33,8 @@
 
 `ifndef PnR
     // `include "openframe_project_wrapper.v"
-    // `include "user_proj_timer.v"
+    // `include "CF_CARAVEL_SOC.bb.v"
+    // `include "counter_macro.bb.v"
     // `include "vccd1_connection.v"
     // `include "vssd1_connection.v"
 `endif
