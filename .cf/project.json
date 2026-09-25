@@ -3,10 +3,1236 @@
     "name": "cf-caravel-soc-openframe",
     "type": "openframe",
     "user": "jdicorpo",
-    "version": "1",
-    "user_project_wrapper_hash": "",
+    "version": "3",
+    "user_project_wrapper_hash": "6b13476aab19b7171c52844810cc8e0111edc25764edddbf53e3c8d884d0eb3c",
     "submission_state": "Draft",
     "github_repo_url": "https://github.com/chipfoundry/cf-caravel-soc-openframe",
     "platform_project_id": "9691cdf3-cc86-406e-84ab-523301a50900"
+  },
+  "precheck": {
+    "version": "1.3.7",
+    "timestamp": "2026-09-22T17:07:40.127799+00:00",
+    "pdk": "sky130A",
+    "passed": false,
+    "checks": {
+      "topcell_check": {
+        "status": "pass",
+        "duration_s": 8.41
+      },
+      "xor": {
+        "status": "pass",
+        "duration_s": 245.51
+      },
+      "klayout_feol": {
+        "status": "pass",
+        "duration_s": 558.19
+      },
+      "klayout_beol": {
+        "status": "pass",
+        "duration_s": 1264.24
+      },
+      "klayout_offgrid": {
+        "status": "pass",
+        "duration_s": 270.77
+      },
+      "klayout_met_min_ca_density": {
+        "status": "pass",
+        "duration_s": 121.07
+      },
+      "klayout_pin_label_purposes_overlapping_drawing": {
+        "status": "pass",
+        "duration_s": 78.84
+      },
+      "klayout_zeroarea": {
+        "status": "pass",
+        "duration_s": 31.17
+      },
+      "spike_check": {
+        "status": "pass",
+        "duration_s": 33.18
+      },
+      "illegal_cellname_check": {
+        "status": "pass",
+        "duration_s": 12.46
+      },
+      "lvs": {
+        "status": "pass",
+        "duration_s": 3823.11
+      },
+      "oeb": {
+        "status": "fail",
+        "duration_s": 2.77,
+        "details": "44 errors, 45 warnings across 44 GPIOs",
+        "report": {
+          "report_relpath": "/Users/jeffdi/Projects/chipignite-ip/cf-caravel-soc-openframe/precheck_results/22_SEP_2026___15_19_56/outputs/reports/cvc.oeb.report",
+          "design_type": "openframe",
+          "gpios": [
+            {
+              "gpio": 0,
+              "user_index": 0,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 1,
+              "user_index": 1,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 2,
+              "user_index": 2,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 3,
+              "user_index": 3,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 4,
+              "user_index": 4,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 5,
+              "user_index": 5,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 6,
+              "user_index": 6,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 7,
+              "user_index": 7,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 8,
+              "user_index": 8,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 9,
+              "user_index": 9,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 10,
+              "user_index": 10,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 11,
+              "user_index": 11,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 12,
+              "user_index": 12,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 13,
+              "user_index": 13,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 14,
+              "user_index": 14,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 15,
+              "user_index": 15,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 16,
+              "user_index": 16,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 17,
+              "user_index": 17,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 18,
+              "user_index": 18,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 19,
+              "user_index": 19,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 20,
+              "user_index": 20,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 21,
+              "user_index": 21,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 22,
+              "user_index": 22,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 23,
+              "user_index": 23,
+              "analog_index": null,
+              "in": null,
+              "out": "2",
+              "analog": null,
+              "oeb_min": "vssd1",
+              "oeb_sim": "vssd1",
+              "oeb_max": "vssd1",
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 24,
+              "user_index": 24,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 25,
+              "user_index": 25,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 26,
+              "user_index": 26,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 27,
+              "user_index": 27,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 28,
+              "user_index": 28,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 29,
+              "user_index": 29,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 30,
+              "user_index": 30,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 31,
+              "user_index": 31,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 32,
+              "user_index": 32,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 33,
+              "user_index": 33,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 34,
+              "user_index": 34,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 35,
+              "user_index": 35,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 36,
+              "user_index": 36,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 37,
+              "user_index": 37,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 38,
+              "user_index": 38,
+              "analog_index": null,
+              "in": 2,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 2,
+              "error_count": 1
+            },
+            {
+              "gpio": 39,
+              "user_index": 39,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 40,
+              "user_index": 40,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 41,
+              "user_index": 41,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 42,
+              "user_index": 42,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            },
+            {
+              "gpio": 43,
+              "user_index": 43,
+              "analog_index": null,
+              "in": null,
+              "out": null,
+              "analog": null,
+              "oeb_min": null,
+              "oeb_sim": null,
+              "oeb_max": null,
+              "configuration": "xxxxxxxxxxx",
+              "dm": "xxx",
+              "resolved_mode": null,
+              "warning_count": 1,
+              "error_count": 1
+            }
+          ],
+          "messages": [
+            {
+              "gpio": 0,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 0,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 1,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 1,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 2,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 2,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 3,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 3,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 4,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 4,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 5,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 5,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 6,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 6,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 7,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 7,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 8,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 8,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 9,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 9,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 10,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 10,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 11,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 11,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 12,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 12,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 13,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 13,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 14,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 14,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 15,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 15,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 16,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 16,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 17,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 17,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 18,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 18,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 19,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 19,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 20,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 20,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 21,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 21,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 22,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 22,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 23,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 23,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 24,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 24,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 25,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 25,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 26,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 26,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 27,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 27,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 28,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 28,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 29,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 29,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 30,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 30,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 31,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 31,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 32,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 32,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 33,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 33,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 34,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 34,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 35,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 35,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 36,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 36,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 37,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 37,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 38,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 38,
+              "severity": "warning",
+              "text": "oeb expected high for input only"
+            },
+            {
+              "gpio": 38,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 39,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 39,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 40,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 40,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 41,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 41,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 42,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 42,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            },
+            {
+              "gpio": 43,
+              "severity": "warning",
+              "text": "unrecognized dm configuration [xxx]- connectivity confirmation required"
+            },
+            {
+              "gpio": 43,
+              "severity": "error",
+              "text": "all gpio configuration signals must be connected"
+            }
+          ],
+          "summary": {
+            "total": 44,
+            "errors": 44,
+            "warnings": 45,
+            "no_issues_banner": false
+          }
+        }
+      },
+      "magic_drc": {
+        "status": "skip",
+        "duration_s": 0,
+        "reason": "optional (use --magic-drc to include)"
+      }
+    },
+    "input_file_hash": "06b80f0ae0c91968e8a5255d64c28f10372b39dd"
   }
 }
